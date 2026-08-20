@@ -12,8 +12,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/github/license/mahimairaja/voiceai?style=flat-square\&color=blue)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/mahimairaja/voiceai?style=flat-square\&logo=github\&color=yellow)](https://github.com/mahimairaja/voiceai/stargazers) ⭐ 313 | 🐛 1 | 📅 2026-08-06
-[![Last commit](https://img.shields.io/github/last-commit/mahimairaja/voiceai?style=flat-square\&color=informational)](https://github.com/mahimairaja/voiceai/commits/main) ⭐ 313 | 🐛 1 | 📅 2026-08-06
+[![Stars](https://img.shields.io/github/stars/mahimairaja/voiceai?style=flat-square\&logo=github\&color=yellow)](https://github.com/mahimairaja/voiceai/stargazers) ⭐ 314 | 🐛 0 | 📅 2026-08-20
+[![Last commit](https://img.shields.io/github/last-commit/mahimairaja/voiceai?style=flat-square\&color=informational)](https://github.com/mahimairaja/voiceai/commits/main) ⭐ 314 | 🐛 0 | 📅 2026-08-20
 [![Resources](https://img.shields.io/badge/resources-200%2B-5b21b6?style=flat-square)](#table-of-contents)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#contributing)
 
@@ -113,8 +113,8 @@ The frameworks below all let you wire STT, an LLM, and TTS together. **For open-
 
 ### Open-source frameworks
 
-* 🔴 [Ultravox (fixie-ai/ultravox)](https://github.com/fixie-ai/ultravox) ⭐ 4,546 | 🐛 63 | 🌐 Python | 📅 2025-12-12: Open-weight multimodal speech LLM (Llama/Gemma/Qwen variants) that skips the separate ASR stage for \~150 ms TTFT.
-* 🟡 [qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) ⭐ 2,191 | 🐛 9 | 🌐 JavaScript | 📅 2026-08-19: Full-duplex voice runtime that drives coding agents (OpenCode, Claude Code, Codex, and other ACP backends) with barge-in, parallel background tasks, and a local wake word.
+* 🔴 [Ultravox (fixie-ai/ultravox)](https://github.com/fixie-ai/ultravox) ⭐ 4,548 | 🐛 63 | 🌐 Python | 📅 2025-12-12: Open-weight multimodal speech LLM (Llama/Gemma/Qwen variants) that skips the separate ASR stage for \~150 ms TTFT.
+* 🟡 [qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) ⭐ 2,202 | 🐛 10 | 🌐 JavaScript | 📅 2026-08-20: Full-duplex voice runtime that drives coding agents (OpenCode, Claude Code, Codex, and other ACP backends) with barge-in, parallel background tasks, and a local wake word.
 * 🟢 [LiveKit Agents: Voice AI Quickstart](https://docs.livekit.io/agents/start/voice-ai/): Working assistant in <10 min via Python or TypeScript, runs on top of WebRTC.
 * 🟢 [Pipecat: Quickstart](https://docs.pipecat.ai/pipecat/get-started/quickstart): Scaffolds a Deepgram + OpenAI + Cartesia pipeline via the Pipecat CLI (`uv tool install pipecat-ai-cli`, then `pipecat init quickstart`); talk to it in the browser in \~5 minutes.
 
@@ -152,7 +152,7 @@ Pick **one streaming STT** and learn it deeply before shopping around. Deepgram,
 | **NVIDIA Parakeet (NeMo)**     | Open source | Top-of-leaderboard accuracy         |
 
 <details>
-<summary><b>19 resources</b></summary>
+<summary><b>20 resources</b></summary>
 
 ### Commercial APIs
 
@@ -163,15 +163,16 @@ Pick **one streaming STT** and learn it deeply before shopping around. Deepgram,
 * 🟢 [Soniox Speech-to-Text](https://soniox.com/docs/stt/get-started): One model spanning 60+ languages with real-time WebSocket streaming and async APIs, speaker diarization, language identification, endpoint detection, and built-in real-time speech translation (one-way or two-way).
 * 🟡 [Speechmatics Melia](https://www.speechmatics.com/company/articles-and-news/introducing-melia-multilingual-speech-to-text-model): Single-pass multilingual STT with native code-switching across 56+ languages.
 * 🟡 [Gladia Solaria-3](https://www.gladia.io/blog/solaria-3-speech-to-text-model-for-european-languages): STT tuned for noisy, multi-speaker European business audio (9.6% WER on English production calls).
+* 🟢 [Gradium STT](https://docs.gradium.ai/guides/speech-to-text): Streaming STT with built-in semantic VAD; step messages every 80 ms carry end-of-turn probabilities so agents can decide when a speaker has finished.
 
 ### Open source
 
-* 🟢 [openai/whisper](https://github.com/openai/whisper) ⭐ 107,610 | 🐛 135 | 🌐 Python | 📅 2026-07-28: The original repo and the de facto starting point for any DIY ASR project.
-* 🟡 [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) ⭐ 24,991 | 🐛 317 | 🌐 Python | 📅 2025-11-19: CTranslate2 reimplementation up to 4× faster with INT8; recommended for self-hosted Whisper.
-* 🟡 [FunASR](https://github.com/modelscope/FunASR) ⭐ 19,926 | 🐛 5 | 🌐 Python | 📅 2026-08-17: Industrial open-source ASR toolkit with Paraformer, SenseVoice, VAD, punctuation, diarization, streaming services, and an OpenAI-compatible API for self-hosted voice agents.
-* 🔴 [NVIDIA NeMo (Parakeet / Canary)](https://github.com/NVIDIA-NeMo/Speech) ⭐ 18,176 | 🐛 278 | 🌐 Python | 📅 2026-08-19: Top-of-leaderboard open ASR models with streaming inference recipes.
-* 🟡 [Moonshine](https://github.com/moonshine-ai/moonshine) ⭐ 10,894 | 🐛 15 | 🌐 C++ | 📅 2026-08-19: Tiny on-device ASR (tiny 27M / base 61M params); v2 adds an ergodic streaming encoder built for latency-critical live transcription on edge devices.
-* 🟡 [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) ⭐ 9,106 | 🐛 1 | 🌐 C | 📅 2026-08-18: Multilingual speech understanding model for ASR, language identification, emotion recognition, and audio event detection, with FunASR integration and ONNX/libtorch export examples.
+* 🟢 [openai/whisper](https://github.com/openai/whisper) ⭐ 107,666 | 🐛 135 | 🌐 Python | 📅 2026-07-28: The original repo and the de facto starting point for any DIY ASR project.
+* 🟡 [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) ⭐ 25,007 | 🐛 317 | 🌐 Python | 📅 2025-11-19: CTranslate2 reimplementation up to 4× faster with INT8; recommended for self-hosted Whisper.
+* 🟡 [FunASR](https://github.com/modelscope/FunASR) ⭐ 19,939 | 🐛 6 | 🌐 Python | 📅 2026-08-20: Industrial open-source ASR toolkit with Paraformer, SenseVoice, VAD, punctuation, diarization, streaming services, and an OpenAI-compatible API for self-hosted voice agents.
+* 🔴 [NVIDIA NeMo (Parakeet / Canary)](https://github.com/NVIDIA-NeMo/Speech) ⭐ 18,182 | 🐛 282 | 🌐 Python | 📅 2026-08-20: Top-of-leaderboard open ASR models with streaming inference recipes.
+* 🟡 [Moonshine](https://github.com/moonshine-ai/moonshine) ⭐ 10,900 | 🐛 15 | 🌐 C++ | 📅 2026-08-20: Tiny on-device ASR (tiny 27M / base 61M params); v2 adds an ergodic streaming encoder built for latency-critical live transcription on edge devices.
+* 🟡 [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) ⭐ 9,116 | 🐛 1 | 🌐 C | 📅 2026-08-18: Multilingual speech understanding model for ASR, language identification, emotion recognition, and audio event detection, with FunASR integration and ONNX/libtorch export examples.
 * 🔴 [NVIDIA Nemotron 3.5 ASR Streaming 0.6B](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b): Open-weights cache-aware FastConformer streaming ASR across 40 locales, with runtime-configurable latency (80 ms to 1.1 s).
 
 ### Benchmarks and explainers
@@ -197,7 +198,7 @@ Pick **one streaming STT** and learn it deeply before shopping around. Deepgram,
 | **Chatterbox**      | Open source | Cloning + emotion control |
 
 <details>
-<summary><b>15 resources</b></summary>
+<summary><b>16 resources</b></summary>
 
 ### Commercial APIs
 
@@ -206,17 +207,18 @@ Pick **one streaming STT** and learn it deeply before shopping around. Deepgram,
 * 🟢 [Deepgram Aura-2](https://developers.deepgram.com/docs/tts-models): Low-latency streaming TTS (Aura-2) that pairs cleanly with Deepgram STT.
 * 🟢 [OpenAI TTS (gpt-4o-mini-tts)](https://developers.openai.com/api/docs/guides/text-to-speech): Easiest plug-in TTS for the OpenAI stack.
 * 🟢 [Soniox Text-to-Speech](https://soniox.com/docs/tts/get-started): Low-latency streaming TTS over WebSocket with multilingual voices; pairs with Soniox STT and translation.
+* 🟢 [Gradium TTS](https://docs.gradium.ai/guides/text-to-speech): Streaming WebSocket TTS with 158 ms P50 time to first audio and instant voice cloning in five languages.
 * 🟢 [Artificial Analysis: TTS leaderboard](https://artificialanalysis.ai/text-to-speech/models): ELO, price, and speed comparison covering Rime, PlayHT, Hume, Inworld, and others.
 * 🟡 [Best Text-to-Speech Providers in 2026 (Coval)](https://www.coval.ai/blog/best-text-to-speech-providers-in-2026-how-to-choose-%28and-why-vendor-benchmarks-lie%29/): Independent head-to-head of 14 TTS providers on latency, naturalness, and cost; note the commercial author.
 
 ### Open source
 
-* 🟡 [Chatterbox (resemble-ai/chatterbox)](https://github.com/resemble-ai/chatterbox) ⭐ 26,064 | 🐛 358 | 🌐 Python | 📅 2026-07-21: Resemble AI's MIT-licensed TTS that beats ElevenLabs in blind preference tests; \~5 s zero-shot voice cloning, emotion-exaggeration control, and a built-in PerTh watermark. Turbo variant (350M) hits sub-150 ms first audio; Multilingual (V3, 0.5B) covers 23+ languages.
+* 🟡 [Chatterbox (resemble-ai/chatterbox)](https://github.com/resemble-ai/chatterbox) ⭐ 26,080 | 🐛 358 | 🌐 Python | 📅 2026-07-21: Resemble AI's MIT-licensed TTS that beats ElevenLabs in blind preference tests; \~5 s zero-shot voice cloning, emotion-exaggeration control, and a built-in PerTh watermark. Turbo variant (350M) hits sub-150 ms first audio; Multilingual (V3, 0.5B) covers 23+ languages.
 * 🔴 [Sesame CSM](https://github.com/SesameAILabs/csm) ⭐ 14,718 | 🐛 14 | 🌐 Python | 📅 2025-05-27: Conversational, context-aware multi-speaker TTS using a Llama backbone with the Mimi codec.
-* 🟢 [Kokoro 82M](https://github.com/hexgrad/kokoro) ⭐ 8,477 | 🐛 201 | 🌐 JavaScript | 📅 2025-08-06: Tiny Apache-licensed model that tops community ELO arenas; runs on CPU.
-* 🟡 [Orpheus-TTS](https://github.com/canopyai/Orpheus-TTS) ⭐ 6,297 | 🐛 127 | 🌐 Python | 📅 2025-12-05: Llama-3B-based emotive TTS with \~200 ms streaming and emotion tags.
-* 🟢 [Piper (OHF-Voice/piper1-gpl)](https://github.com/OHF-Voice/piper1-gpl) ⭐ 5,184 | 🐛 117 | 🌐 C++ | 📅 2026-08-15: Fast local neural TTS optimized for Raspberry Pi; perfect for offline projects.
-* 🟡 [Coqui TTS (idiap fork)](https://github.com/idiap/coqui-ai-TTS) ⭐ 2,313 | 🐛 17 | 🌐 Python | 📅 2026-06-10: Maintained fork of Coqui-TTS / XTTS v2; still battle-tested, though Chatterbox now leads on zero-shot cloning quality.
+* 🟢 [Kokoro 82M](https://github.com/hexgrad/kokoro) ⭐ 8,490 | 🐛 201 | 🌐 JavaScript | 📅 2025-08-06: Tiny Apache-licensed model that tops community ELO arenas; runs on CPU.
+* 🟡 [Orpheus-TTS](https://github.com/canopyai/Orpheus-TTS) ⭐ 6,300 | 🐛 127 | 🌐 Python | 📅 2025-12-05: Llama-3B-based emotive TTS with \~200 ms streaming and emotion tags.
+* 🟢 [Piper (OHF-Voice/piper1-gpl)](https://github.com/OHF-Voice/piper1-gpl) ⭐ 5,189 | 🐛 118 | 🌐 C++ | 📅 2026-08-15: Fast local neural TTS optimized for Raspberry Pi; perfect for offline projects.
+* 🟡 [Coqui TTS (idiap fork)](https://github.com/idiap/coqui-ai-TTS) ⭐ 2,314 | 🐛 17 | 🌐 Python | 📅 2026-06-10: Maintained fork of Coqui-TTS / XTTS v2; still battle-tested, though Chatterbox now leads on zero-shot cloning quality.
 
 ### Streaming and ethics
 
@@ -242,7 +244,7 @@ A voice agent's perceived intelligence is bounded by **how fast the LLM streams 
 
 * 🟡 [OpenAI Realtime API guide](https://developers.openai.com/api/docs/guides/realtime): Flagship S2S product with WebRTC/WebSocket transport (`gpt-realtime-2`, GA).
 * 🟡 [Google Gemini Live](https://ai.google.dev/gemini-api/docs/live-api): Real-time multimodal voice/video with barge-in and broad language support, on Gemini native audio.
-* 🔴 [Moshi (kyutai-labs)](https://github.com/kyutai-labs/moshi) ⭐ 10,890 | 🐛 90 | 🌐 Python | 📅 2026-05-16: Open full-duplex speech-text foundation model (\~200 ms, Mimi codec). Kyutai's broader stack now includes Unmute (cascaded STT+LLM+TTS with tool use), Kyutai STT/TTS, and Hibiki (streaming translation).
+* 🔴 [Moshi (kyutai-labs)](https://github.com/kyutai-labs/moshi) ⭐ 10,899 | 🐛 90 | 🌐 Python | 📅 2026-05-16: Open full-duplex speech-text foundation model (\~200 ms, Mimi codec). Kyutai's broader stack now includes Unmute (cascaded STT+LLM+TTS with tool use), Kyutai STT/TTS, and Hibiki (streaming translation).
 * 🟡 [Speech-to-Speech Models in 2026: Three Architectural Bets (Krzysztof Sopyla)](https://ai.ksopyla.com/posts/voice-to-voice-models-2026-review/): Vendor-neutral comparison of full-duplex (Moshi), near-duplex multimodal (Qwen-Omni), and cascade approaches, with FullDuplexBench numbers and tradeoffs.
 
 ### Voice-specific prompting and tools
@@ -259,11 +261,11 @@ A voice agent's perceived intelligence is bounded by **how fast the LLM streams 
 Pure VAD is no longer enough: modern agents combine **acoustic VAD with a small semantic model** that predicts end-of-utterance from words and prosody.
 
 <details>
-<summary><b>14 resources</b></summary>
+<summary><b>15 resources</b></summary>
 
-* 🟢 [Silero VAD](https://github.com/snakers4/silero-vad) ⭐ 10,006 | 🐛 11 | 🌐 Python | 📅 2026-08-18: MIT-licensed pre-trained VAD; <1 ms per chunk on CPU. The de facto VAD inside LiveKit and Pipecat.
+* 🟢 [Silero VAD](https://github.com/snakers4/silero-vad) ⭐ 10,023 | 🐛 11 | 🌐 Python | 📅 2026-08-18: MIT-licensed pre-trained VAD; <1 ms per chunk on CPU. The de facto VAD inside LiveKit and Pipecat.
 * 🟢 [py-webrtcvad](https://github.com/wiseman/py-webrtcvad) ⭐ 2,497 | 🐛 51 | 🌐 C | 📅 2024-07-04: Python bindings for Google's classic WebRTC VAD; lightweight baseline.
-* 🟡 [pipecat-ai/smart-turn](https://github.com/pipecat-ai/smart-turn) ⭐ 1,524 | 🐛 18 | 🌐 Python | 📅 2026-01-29: Repo with model code, training scripts, and integration examples (\~8M params, Whisper-Tiny base).
+* 🟡 [pipecat-ai/smart-turn](https://github.com/pipecat-ai/smart-turn) ⭐ 1,529 | 🐛 18 | 🌐 Python | 📅 2026-01-29: Repo with model code, training scripts, and integration examples (\~8M params, Whisper-Tiny base).
 * 🟡 [LiveKit Turn Detector: blog post](https://livekit.com/blog/using-a-transformer-to-improve-end-of-turn-detection): How a small transformer-based EOU model complements VAD with semantic context.
 * 🟡 [LiveKit turn-detector model on HuggingFace](https://huggingface.co/livekit/turn-detector): Open-weights multilingual EOU model running ONNX on CPU in under 500 MB.
 * 🟡 [LiveKit Turn Detector v1.0](https://livekit.com/blog/solving-end-of-turn-detection): Audio-native end-of-turn model (fused semantic + acoustic, no transcript) across 14 languages; now the LiveKit default.
@@ -274,6 +276,7 @@ Pure VAD is no longer enough: modern agents combine **acoustic VAD with a small 
 * 🟡 [Tackling Turn Detection in Voice AI (Notch)](https://www.notch.cx/post/turn-detection-in-voice-ai): Engineer-first walkthrough combining VAD probability, volume, and TTS markers.
 * 🟡 [What Is Endpointing in Voice AI? (Cekura)](https://www.cekura.ai/blogs/endpointing-in-voice-ai-turn-detection): Explainer on the three-signal endpointing stack with a testing angle; note the commercial author.
 * 🟡 [Evaluating End-of-Turn Detection Models (Deepgram)](https://deepgram.com/learn/evaluating-end-of-turn-detection-models): Methodology plus a head-to-head of Flux, Pipecat Smart Turn, and LiveKit EOU; note the commercial author.
+* 🟡 [Semantic VAD (Gradium)](https://gradium.ai/blog/semantic-vad): Explainer on multi-horizon end-of-utterance prediction, with streaming inactivity probabilities every 80 ms and guidance on tuning the latency vs interruption tradeoff; note the commercial author.
 * 🟢 [ai-coustics VAD](https://developers.ai-coustics.com/): VAD bundled with real-time speech enhancement, noise suppression, and voice isolation in a single audio preprocessing SDK; useful when you want cleanup and turn-taking signals from the same component.
 
 </details>
@@ -285,8 +288,8 @@ The audio reaching your VAD and STT is often noisy, reverberant, or mixed with b
 <details>
 <summary><b>6 resources</b></summary>
 
-* 🟡 [RNNoise (xiph/rnnoise)](https://github.com/xiph/rnnoise) ⭐ 5,788 | 🐛 205 | 🌐 C | 📅 2025-02-22: Classic hybrid DSP + deep-learning noise suppression; a tiny, well-understood baseline, but no longer actively maintained.
-* 🟡 [DeepFilterNet (Rikorose/DeepFilterNet)](https://github.com/Rikorose/DeepFilterNet) ⭐ 4,612 | 🐛 64 | 🌐 Python | 📅 2024-10-17: Open-source, low-complexity real-time speech enhancement for full-band audio; designed to run on embedded devices. The strongest actively-developed OSS noise suppressor.
+* 🟡 [RNNoise (xiph/rnnoise)](https://github.com/xiph/rnnoise) ⭐ 5,790 | 🐛 205 | 🌐 C | 📅 2025-02-22: Classic hybrid DSP + deep-learning noise suppression; a tiny, well-understood baseline, but no longer actively maintained.
+* 🟡 [DeepFilterNet (Rikorose/DeepFilterNet)](https://github.com/Rikorose/DeepFilterNet) ⭐ 4,615 | 🐛 65 | 🌐 Python | 📅 2024-10-17: Open-source, low-complexity real-time speech enhancement for full-band audio; designed to run on embedded devices. The strongest actively-developed OSS noise suppressor.
 * 🟢 [ai-coustics](https://ai-coustics.com/): Real-time speech enhancement SDK covering noise cancellation, voice isolation, and VAD; on-device and cloud deployment. See the [docs](https://docs.ai-coustics.com/) and [developer platform](https://developers.ai-coustics.com/).
 * 🟢 [Krisp SDK](https://krisp.ai/): Commercial-grade real-time noise and background-voice cancellation; the de facto standard for voice comms (Python, Node.js, Go, C++ SDKs). LiveKit's background voice cancellation and Pipecat Cloud both build on Krisp. Enterprise access via contact form.
 * 🟢 [Koala Noise Suppression (Picovoice)](https://picovoice.ai/platform/koala/): On-device, cross-platform voice isolation with self-serve access (browser, mobile, desktop, Raspberry Pi).
@@ -366,12 +369,12 @@ Clone these instead of writing boilerplate from scratch.
 <details>
 <summary><b>9 resources</b></summary>
 
-* 🟢→🔴 [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) ⭐ 14,306 | 🐛 233 | 🌐 Python | 📅 2026-08-19: Vendor-neutral framework with 40+ STT/LLM/TTS service plugins.
-* 🟢→🔴 [livekit/agents](https://github.com/livekit/agents) ⭐ 13,082 | 🐛 771 | 🌐 Python | 📅 2026-08-19: The flagship open-source Python/Node framework for production voice agents (tip: pair it with the LiveKit Docs MCP server and Agent Skill for AI-assisted builds).
+* 🟢→🔴 [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) ⭐ 14,344 | 🐛 239 | 🌐 Python | 📅 2026-08-20: Vendor-neutral framework with 40+ STT/LLM/TTS service plugins.
+* 🟢→🔴 [livekit/agents](https://github.com/livekit/agents) ⭐ 13,103 | 🐛 779 | 🌐 Python | 📅 2026-08-20: The flagship open-source Python/Node framework for production voice agents (tip: pair it with the LiveKit Docs MCP server and Agent Skill for AI-assisted builds).
 * 🟡 [zzw922cn/awesome-speech-recognition-speech-synthesis-papers](https://github.com/zzw922cn/awesome-speech-recognition-speech-synthesis-papers) ⭐ 3,128 | 🐛 8 | 📅 2023-10-19: Comprehensive curated index of ASR, TTS, voice conversion, and speech-LLM papers.
-* 🟢 [elevenlabs/elevenlabs-examples](https://github.com/elevenlabs/elevenlabs-examples) ⭐ 620 | 🐛 1 | 🌐 TypeScript | 📅 2026-08-11: Runnable Next.js and Python examples for TTS, STT, and real-time agents.
+* 🟢 [elevenlabs/elevenlabs-examples](https://github.com/elevenlabs/elevenlabs-examples) ⭐ 621 | 🐛 1 | 🌐 TypeScript | 📅 2026-08-11: Runnable Next.js and Python examples for TTS, STT, and real-time agents.
 * 🟢 [wildminder/awesome-ai-voice](https://github.com/wildminder/awesome-ai-voice) ⭐ 469 | 🐛 0 | 📅 2026-08-15: Actively maintained 2026 list of open-source TTS, voice-cloning, and audio/music-generation models.
-* 🟢→🟡 [pipecat-ai/pipecat-examples](https://github.com/pipecat-ai/pipecat-examples) ⭐ 337 | 🐛 12 | 🌐 Python | 📅 2026-08-15: Sample apps for push-to-talk, websocket, telephony, and multimodal use cases.
+* 🟢→🟡 [pipecat-ai/pipecat-examples](https://github.com/pipecat-ai/pipecat-examples) ⭐ 337 | 🐛 11 | 🌐 Python | 📅 2026-08-20: Sample apps for push-to-talk, websocket, telephony, and multimodal use cases.
 * 🟡 [kwindla/macos-local-voice-agents](https://github.com/kwindla/macos-local-voice-agents) ⭐ 334 | 🐛 4 | 🌐 Python | 📅 2025-08-26: Pipecat example hitting sub-800 ms voice-to-voice latency entirely on M-series Macs.
 * 🟢 [livekit-examples/agent-starter-python](https://github.com/livekit-examples/agent-starter-python) ⭐ 252 | 🐛 21 | 🌐 Python | 📅 2026-08-12: Production-ready starter with Dockerfile, eval suite, turn detector, and core plugins.
 * 🟢 [livekit-examples (org)](https://github.com/livekit-examples): Official collection of LiveKit Python/React/Swift/Android starters.
@@ -423,7 +426,7 @@ You can't ship what you can't measure. **Voice-agent evaluation is fundamentally
 <details>
 <summary><b>12 resources</b></summary>
 
-* 🟡 [Future AGI](https://github.com/future-agi/future-agi) ⭐ 1,715 | 🐛 698 | 🌐 Python | 📅 2026-08-19: Open-source platform to simulate, evaluate, trace, guardrail, and optimize voice and AI agent apps in one feedback loop, with persona-driven simulation and 50+ eval metrics.
+* 🟡 [Future AGI](https://github.com/future-agi/future-agi) ⭐ 1,744 | 🐛 700 | 🌐 Python | 📅 2026-08-20: Open-source platform to simulate, evaluate, trace, guardrail, and optimize voice and AI agent apps in one feedback loop, with persona-driven simulation and 50+ eval metrics.
 * 🟡 [Future AGI simulate-sdk](https://github.com/future-agi/simulate-sdk) ⭐ 59 | 🐛 0 | 🌐 Python | 📅 2026-06-30: Open-source voice AI simulation SDK for testing AI agents; generates synthetic conversations for evaluation.
 * 🟢 [Coval: Voice AI Testing Platform](https://www.coval.ai/): Defines the core voice-agent metrics: TTFB, WER, resolution rate, simulated accents, and interruptions.
 * 🟢 [Coval: How to Evaluate Voice Agents (Practical Guide)](https://www.coval.ai/blog/how-to-evaluate-voice-agents-a-practical-guide-to-testing-and-quality-assurance): One of the most cited 2025 guides on probabilistic vs deterministic evaluation.
@@ -568,7 +571,7 @@ Pull requests welcome. Resources must be **active in the last 12 months**, **acc
 
 ## ⭐ Stargazers and contributors
 
-[![Star History Chart](https://api.star-history.com/svg?repos=mahimairaja/voiceai\&type=Date)](https://star-history.com/#mahimairaja/voiceai\&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=mahimairaja/voiceai\&type=Date)](https://star-history.dera.page/#mahimairaja/voiceai\&Date)
 
 <a href="https://github.com/mahimairaja/voiceai/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=mahimairaja/voiceai&max=40&columns=10&anon=0" alt="Contributors" />
@@ -580,4 +583,4 @@ Pull requests welcome. Resources must be **active in the last 12 months**, **acc
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-19._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-20._
