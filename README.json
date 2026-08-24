@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "description": "The frameworks below all let you wire STT, an LLM, and TTS together. For open-source production work, LiveKit Agents and Pipecat are the two safest bets; for managed dashboards, Vapi, Retell, and Bland win on time-to-first-call.",
+      "description": null,
       "items": [
         {
           "children": [
@@ -29,10 +29,10 @@
                 "archived": false,
                 "id": 1313435339,
                 "language": "JavaScript",
-                "last_commit": "2026-08-21T08:44:36Z",
+                "last_commit": "2026-08-24T13:18:16Z",
                 "owner": "QwenAudio",
                 "repo": "qwen-audio-agent",
-                "stars": 2221
+                "stars": 2228
               }
             }
           ],
@@ -41,10 +41,10 @@
           "title": "Open-source frameworks"
         }
       ],
-      "title": "🧩 2. Frameworks and orchestration platforms"
+      "title": "14 resources"
     },
     {
-      "description": "Pick one streaming STT and learn it deeply before shopping around. Deepgram, AssemblyAI, and Whisper-derivatives cover most use cases. (All-in-one ASR + end-of-turn models like Deepgram Flux are covered under turn-taking.)",
+      "description": null,
       "items": [
         {
           "children": [
@@ -60,7 +60,7 @@
                 "last_commit": "2026-07-28T20:18:29Z",
                 "owner": "openai",
                 "repo": "whisper",
-                "stars": 107810
+                "stars": 107864
               }
             },
             {
@@ -75,7 +75,7 @@
                 "last_commit": "2025-11-19T14:40:46Z",
                 "owner": "SYSTRAN",
                 "repo": "faster-whisper",
-                "stars": 25050
+                "stars": 25061
               }
             },
             {
@@ -90,7 +90,7 @@
                 "last_commit": "2026-08-21T04:17:05Z",
                 "owner": "modelscope",
                 "repo": "FunASR",
-                "stars": 19979
+                "stars": 19994
               }
             },
             {
@@ -102,10 +102,10 @@
                 "archived": false,
                 "id": 200722670,
                 "language": "Python",
-                "last_commit": "2026-08-22T20:39:19Z",
+                "last_commit": "2026-08-24T14:19:26Z",
                 "owner": "NVIDIA-NeMo",
                 "repo": "Speech",
-                "stars": 18259
+                "stars": 18299
               }
             },
             {
@@ -117,10 +117,10 @@
                 "archived": false,
                 "id": 867866058,
                 "language": "C++",
-                "last_commit": "2026-08-23T10:26:48Z",
+                "last_commit": "2026-08-24T05:05:21Z",
                 "owner": "moonshine-ai",
                 "repo": "moonshine",
-                "stars": 10921
+                "stars": 10930
               }
             },
             {
@@ -135,7 +135,7 @@
                 "last_commit": "2026-08-18T02:13:34Z",
                 "owner": "QwenAudio",
                 "repo": "SenseVoice",
-                "stars": 9128
+                "stars": 9135
               }
             }
           ],
@@ -144,10 +144,10 @@
           "title": "Open source"
         }
       ],
-      "title": "🎧 3. Speech-to-text (STT / ASR)"
+      "title": "20 resources"
     },
     {
-      "description": "Latency, not raw quality, is what kills voice agents: prioritize providers offering true streaming with first-byte under 200 ms.",
+      "description": null,
       "items": [
         {
           "children": [
@@ -163,7 +163,7 @@
                 "last_commit": "2026-07-21T12:27:05Z",
                 "owner": "resemble-ai",
                 "repo": "chatterbox",
-                "stars": 26113
+                "stars": 26129
               }
             },
             {
@@ -193,7 +193,7 @@
                 "last_commit": "2025-08-06T22:28:53Z",
                 "owner": "hexgrad",
                 "repo": "kokoro",
-                "stars": 8531
+                "stars": 8543
               }
             },
             {
@@ -223,7 +223,7 @@
                 "last_commit": "2026-08-22T07:10:02Z",
                 "owner": "OHF-Voice",
                 "repo": "piper1-gpl",
-                "stars": 5247
+                "stars": 5260
               }
             },
             {
@@ -238,7 +238,7 @@
                 "last_commit": "2026-06-10T09:01:00Z",
                 "owner": "idiap",
                 "repo": "coqui-ai-TTS",
-                "stars": 2312
+                "stars": 2311
               }
             }
           ],
@@ -247,10 +247,10 @@
           "title": "Open source"
         }
       ],
-      "title": "🗣️ 4. Text-to-speech (TTS)"
+      "title": "16 resources"
     },
     {
-      "description": "Pure VAD is no longer enough: modern agents combine acoustic VAD with a small semantic model that predicts end-of-utterance from words and prosody.",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -261,10 +261,10 @@
             "archived": false,
             "id": 315270108,
             "language": "Python",
-            "last_commit": "2026-08-18T10:54:28Z",
+            "last_commit": "2026-08-24T06:47:25Z",
             "owner": "snakers4",
             "repo": "silero-vad",
-            "stars": 10038
+            "stars": 10042
           }
         },
         {
@@ -294,14 +294,14 @@
             "last_commit": "2026-01-29T12:30:26Z",
             "owner": "pipecat-ai",
             "repo": "smart-turn",
-            "stars": 1530
+            "stars": 1534
           }
         }
       ],
-      "title": "🔀 6. Voice activity detection and turn-taking"
+      "title": "15 resources"
     },
     {
-      "description": "The audio reaching your VAD and STT is often noisy, reverberant, or mixed with background voices. Cleaning the signal before the rest of the pipeline is frequently the difference between an agent that ships and one that frustrates users in real-world conditions (cars, cafés, call centres). In 2026 every major voice-AI vendor ships a deep-learning suppressor on top of WebRTC's classic noise-suppression chain.",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -330,14 +330,14 @@
             "last_commit": "2024-10-17T08:35:11Z",
             "owner": "Rikorose",
             "repo": "DeepFilterNet",
-            "stars": 4623
+            "stars": 4624
           }
         }
       ],
-      "title": "🔊 7. Audio enhancement and noise suppression"
+      "title": "6 resources"
     },
     {
-      "description": "Clone these instead of writing boilerplate from scratch.",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -348,10 +348,10 @@
             "archived": false,
             "id": 736272311,
             "language": "Python",
-            "last_commit": "2026-08-23T02:55:20Z",
+            "last_commit": "2026-08-24T14:06:19Z",
             "owner": "pipecat-ai",
             "repo": "pipecat",
-            "stars": 14503
+            "stars": 14617
           }
         },
         {
@@ -363,10 +363,10 @@
             "archived": false,
             "id": 707441527,
             "language": "Python",
-            "last_commit": "2026-08-22T05:12:04Z",
+            "last_commit": "2026-08-24T11:05:40Z",
             "owner": "livekit",
             "repo": "agents",
-            "stars": 13136
+            "stars": 13153
           }
         },
         {
@@ -408,10 +408,10 @@
             "archived": false,
             "id": 1178248327,
             "language": null,
-            "last_commit": "2026-08-15T10:06:39Z",
+            "last_commit": "2026-08-24T11:02:36Z",
             "owner": "wildminder",
             "repo": "awesome-ai-voice",
-            "stars": 471
+            "stars": 474
           }
         },
         {
@@ -460,10 +460,10 @@
           }
         }
       ],
-      "title": "📦 11. GitHub starter repos and awesome lists"
+      "title": "9 resources"
     },
     {
-      "description": "You can't ship what you can't measure. Voice-agent evaluation is fundamentally probabilistic: a single transcript can pass and fail across runs, so simulation and statistics matter more than fixed test cases.",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -474,10 +474,10 @@
             "archived": false,
             "id": 1219087723,
             "language": "Python",
-            "last_commit": "2026-08-23T00:43:53Z",
+            "last_commit": "2026-08-24T14:15:57Z",
             "owner": "future-agi",
             "repo": "future-agi",
-            "stars": 1795
+            "stars": 1801
           }
         },
         {
@@ -496,11 +496,11 @@
           }
         }
       ],
-      "title": "✅ 14. Evaluation and testing"
+      "title": "12 resources"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T13:55:41.911Z",
+    "last_updated": "2026-08-24T14:27:04.053Z",
     "original_repository": "mahimairaja/voiceai",
     "original_repository_id": 1028684768,
     "original_repository_sha": "956352b1dc4220e43dd9182ec25a084ccddb5062",
