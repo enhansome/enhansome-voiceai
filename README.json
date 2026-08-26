@@ -17,7 +17,7 @@
                 "last_commit": "2025-12-12T18:09:40Z",
                 "owner": "fixie-ai",
                 "repo": "ultravox",
-                "stars": 4551
+                "stars": 4554
               }
             },
             {
@@ -29,10 +29,10 @@
                 "archived": false,
                 "id": 1313435339,
                 "language": "JavaScript",
-                "last_commit": "2026-08-25T14:20:29Z",
+                "last_commit": "2026-08-26T13:41:44Z",
                 "owner": "QwenAudio",
                 "repo": "qwen-audio-agent",
-                "stars": 2242
+                "stars": 2262
               }
             }
           ],
@@ -60,7 +60,7 @@
                 "last_commit": "2026-07-28T20:18:29Z",
                 "owner": "openai",
                 "repo": "whisper",
-                "stars": 107909
+                "stars": 107963
               }
             },
             {
@@ -75,7 +75,7 @@
                 "last_commit": "2025-11-19T14:40:46Z",
                 "owner": "SYSTRAN",
                 "repo": "faster-whisper",
-                "stars": 25075
+                "stars": 25091
               }
             },
             {
@@ -87,10 +87,10 @@
                 "archived": false,
                 "id": 569959091,
                 "language": "Python",
-                "last_commit": "2026-08-24T14:38:23Z",
+                "last_commit": "2026-08-26T12:11:10Z",
                 "owner": "modelscope",
                 "repo": "FunASR",
-                "stars": 20013
+                "stars": 20032
               }
             },
             {
@@ -102,10 +102,10 @@
                 "archived": false,
                 "id": 200722670,
                 "language": "Python",
-                "last_commit": "2026-08-25T13:49:31Z",
+                "last_commit": "2026-08-26T14:06:53Z",
                 "owner": "NVIDIA-NeMo",
                 "repo": "Speech",
-                "stars": 18324
+                "stars": 18333
               }
             },
             {
@@ -120,7 +120,7 @@
                 "last_commit": "2026-08-25T00:31:10Z",
                 "owner": "moonshine-ai",
                 "repo": "moonshine",
-                "stars": 10934
+                "stars": 10943
               }
             },
             {
@@ -135,7 +135,7 @@
                 "last_commit": "2026-08-18T02:13:34Z",
                 "owner": "QwenAudio",
                 "repo": "SenseVoice",
-                "stars": 9143
+                "stars": 9149
               }
             }
           ],
@@ -163,7 +163,7 @@
                 "last_commit": "2026-07-21T12:27:05Z",
                 "owner": "resemble-ai",
                 "repo": "chatterbox",
-                "stars": 26144
+                "stars": 26159
               }
             },
             {
@@ -178,7 +178,7 @@
                 "last_commit": "2025-05-27T12:21:52Z",
                 "owner": "SesameAILabs",
                 "repo": "csm",
-                "stars": 14721
+                "stars": 14720
               }
             },
             {
@@ -193,7 +193,7 @@
                 "last_commit": "2025-08-06T22:28:53Z",
                 "owner": "hexgrad",
                 "repo": "kokoro",
-                "stars": 8557
+                "stars": 8568
               }
             },
             {
@@ -208,7 +208,7 @@
                 "last_commit": "2025-12-05T19:01:02Z",
                 "owner": "canopyai",
                 "repo": "Orpheus-TTS",
-                "stars": 6313
+                "stars": 6314
               }
             },
             {
@@ -223,7 +223,7 @@
                 "last_commit": "2026-08-22T07:10:02Z",
                 "owner": "OHF-Voice",
                 "repo": "piper1-gpl",
-                "stars": 5269
+                "stars": 5284
               }
             },
             {
@@ -238,7 +238,7 @@
                 "last_commit": "2026-06-10T09:01:00Z",
                 "owner": "idiap",
                 "repo": "coqui-ai-TTS",
-                "stars": 2311
+                "stars": 2312
               }
             }
           ],
@@ -264,7 +264,7 @@
             "last_commit": "2026-08-24T06:47:25Z",
             "owner": "snakers4",
             "repo": "silero-vad",
-            "stars": 10051
+            "stars": 10059
           }
         },
         {
@@ -294,7 +294,7 @@
             "last_commit": "2026-01-29T12:30:26Z",
             "owner": "pipecat-ai",
             "repo": "smart-turn",
-            "stars": 1537
+            "stars": 1538
           }
         }
       ],
@@ -330,7 +330,7 @@
             "last_commit": "2024-10-17T08:35:11Z",
             "owner": "Rikorose",
             "repo": "DeepFilterNet",
-            "stars": 4627
+            "stars": 4630
           }
         }
       ],
@@ -348,10 +348,10 @@
             "archived": false,
             "id": 736272311,
             "language": "Python",
-            "last_commit": "2026-08-25T14:19:26Z",
+            "last_commit": "2026-08-26T13:35:36Z",
             "owner": "pipecat-ai",
             "repo": "pipecat",
-            "stars": 14688
+            "stars": 14756
           }
         },
         {
@@ -363,10 +363,10 @@
             "archived": false,
             "id": 707441527,
             "language": "Python",
-            "last_commit": "2026-08-25T13:43:23Z",
+            "last_commit": "2026-08-26T13:58:15Z",
             "owner": "livekit",
             "repo": "agents",
-            "stars": 13162
+            "stars": 13169
           }
         },
         {
@@ -381,7 +381,7 @@
             "last_commit": "2023-10-19T03:52:13Z",
             "owner": "zzw922cn",
             "repo": "awesome-speech-recognition-speech-synthesis-papers",
-            "stars": 3129
+            "stars": 3130
           }
         },
         {
@@ -411,7 +411,7 @@
             "last_commit": "2026-08-25T13:10:54Z",
             "owner": "wildminder",
             "repo": "awesome-ai-voice",
-            "stars": 476
+            "stars": 477
           }
         },
         {
@@ -426,7 +426,7 @@
             "last_commit": "2026-08-20T13:10:52Z",
             "owner": "pipecat-ai",
             "repo": "pipecat-examples",
-            "stars": 340
+            "stars": 341
           }
         },
         {
@@ -474,10 +474,10 @@
             "archived": false,
             "id": 1219087723,
             "language": "Python",
-            "last_commit": "2026-08-25T13:39:54Z",
+            "last_commit": "2026-08-26T13:38:05Z",
             "owner": "future-agi",
             "repo": "future-agi",
-            "stars": 1808
+            "stars": 1829
           }
         },
         {
@@ -500,7 +500,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T14:21:23.429Z",
+    "last_updated": "2026-08-26T14:13:00.701Z",
     "original_repository": "mahimairaja/voiceai",
     "original_repository_id": 1028684768,
     "original_repository_sha": "956352b1dc4220e43dd9182ec25a084ccddb5062",
