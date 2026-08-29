@@ -12,12 +12,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A fast multimodal LLM for real-time voice",
+                "homepage": "https://ultravox.ai",
                 "id": 807860806,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2025-12-12T18:09:40Z",
+                "open_issues": 63,
                 "owner": "fixie-ai",
                 "repo": "ultravox",
-                "stars": 4555
+                "stars": 4555,
+                "topics": [
+                  "ai",
+                  "llm",
+                  "slm",
+                  "speech"
+                ]
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -28,12 +38,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents",
+                "homepage": "https://qwenaudio.github.io/qwen-audio-agent/",
                 "id": 1313435339,
                 "language": "JavaScript",
-                "last_commit": "2026-08-28T16:20:36Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T04:00:05Z",
+                "open_issues": 14,
                 "owner": "QwenAudio",
                 "repo": "qwen-audio-agent",
-                "stars": 2283
+                "stars": 2285,
+                "topics": [
+                  "acp",
+                  "agent",
+                  "agentic-ai",
+                  "ai-coding",
+                  "claude-code",
+                  "codex",
+                  "developer-tools",
+                  "opencode",
+                  "speech-recognition",
+                  "text-to-speech",
+                  "voice-agent",
+                  "voice-ai",
+                  "voice-chat"
+                ]
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             }
@@ -57,12 +86,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+                "homepage": null,
                 "id": 537603333,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-07-28T20:18:29Z",
+                "open_issues": 136,
                 "owner": "openai",
                 "repo": "whisper",
-                "stars": 108081
+                "stars": 108089,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -73,12 +107,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Faster Whisper transcription with CTranslate2",
+                "homepage": null,
                 "id": 600368121,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2025-11-19T14:40:46Z",
+                "open_issues": 319,
                 "owner": "SYSTRAN",
                 "repo": "faster-whisper",
-                "stars": 25128
+                "stars": 25129,
+                "topics": [
+                  "deep-learning",
+                  "inference",
+                  "openai",
+                  "quantization",
+                  "speech-recognition",
+                  "speech-to-text",
+                  "transformer",
+                  "whisper"
+                ]
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -89,12 +137,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
+                "homepage": "www.funasr.com",
                 "id": 569959091,
                 "language": "Python",
-                "last_commit": "2026-08-28T18:42:15Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T03:27:28Z",
+                "open_issues": 5,
                 "owner": "modelscope",
                 "repo": "FunASR",
-                "stars": 20061
+                "stars": 20062,
+                "topics": [
+                  "asr",
+                  "audio",
+                  "chinese",
+                  "emotion-recognition",
+                  "funasr",
+                  "mcp-server",
+                  "multilingual-asr",
+                  "openai-compatible-api",
+                  "paraformer",
+                  "punctuation",
+                  "pytorch",
+                  "real-time-asr",
+                  "speaker-diarization",
+                  "speech-recognition",
+                  "speech-to-text",
+                  "streaming-asr",
+                  "transcription",
+                  "vllm",
+                  "voice-activity-detection",
+                  "whisper-alternative"
+                ]
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -105,12 +179,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+                "homepage": "https://docs.nvidia.com/nemo/speech/nightly/index.html",
                 "id": 200722670,
                 "language": "Python",
-                "last_commit": "2026-08-28T22:48:23Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T00:38:57Z",
+                "open_issues": 293,
                 "owner": "NVIDIA-NeMo",
                 "repo": "Speech",
-                "stars": 18354
+                "stars": 18354,
+                "topics": [
+                  "asr",
+                  "deeplearning",
+                  "generative-ai",
+                  "machine-translation",
+                  "neural-networks",
+                  "speaker-diariazation",
+                  "speaker-recognition",
+                  "speech-synthesis",
+                  "speech-translation",
+                  "tts"
+                ]
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -121,12 +211,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+                "homepage": "https://moonshine.ai",
                 "id": 867866058,
                 "language": "C++",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-28T18:04:23Z",
+                "open_issues": 7,
                 "owner": "moonshine-ai",
                 "repo": "moonshine",
-                "stars": 10953
+                "stars": 10955,
+                "topics": [
+                  "intent-recognition",
+                  "stt",
+                  "tts",
+                  "voice",
+                  "voice-recognition"
+                ]
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -137,12 +238,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-source SenseVoiceSmall model for Mandarin, Cantonese, English, Japanese, and Korean ASR, language ID, emotion recognition, and audio event detection.",
+                "homepage": "https://huggingface.co/spaces/FunAudioLLM/SenseVoice",
                 "id": 823429665,
                 "language": "C",
+                "license": "MIT",
                 "last_commit": "2026-08-27T13:45:16Z",
+                "open_issues": 1,
                 "owner": "QwenAudio",
                 "repo": "SenseVoice",
-                "stars": 9164
+                "stars": 9164,
+                "topics": [
+                  "asr",
+                  "audio-analysis",
+                  "audio-event-detection",
+                  "cantonese",
+                  "cross-lingual",
+                  "emotion-detection",
+                  "funasr",
+                  "language-identification",
+                  "llama-cpp",
+                  "multilingual",
+                  "multilingual-asr",
+                  "pytorch",
+                  "sensevoice",
+                  "speech-emotion-recognition",
+                  "speech-recognition",
+                  "speech-to-text",
+                  "speech-understanding",
+                  "transcription",
+                  "voice-ai",
+                  "whisper-alternative"
+                ]
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             }
@@ -166,12 +293,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "SoTA open-source TTS",
+                "homepage": "https://resemble-ai.github.io/chatterbox_demopage/",
                 "id": 971241545,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-07-21T12:27:05Z",
+                "open_issues": 359,
                 "owner": "resemble-ai",
                 "repo": "chatterbox",
-                "stars": 26184
+                "stars": 26185,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -182,12 +314,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Conversational Speech Generation Model",
+                "homepage": null,
                 "id": 939470275,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2025-05-27T12:21:52Z",
+                "open_issues": 14,
                 "owner": "SesameAILabs",
                 "repo": "csm",
-                "stars": 14722
+                "stars": 14722,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -198,12 +335,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "https://hf.co/hexgrad/Kokoro-82M",
+                "homepage": null,
                 "id": 915054134,
                 "language": "JavaScript",
+                "license": "Apache-2.0",
                 "last_commit": "2025-08-06T22:28:53Z",
+                "open_issues": 205,
                 "owner": "hexgrad",
                 "repo": "kokoro",
-                "stars": 8595
+                "stars": 8597,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -214,12 +356,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Towards Human-Sounding Speech",
+                "homepage": "https://canopylabs.ai",
                 "id": 944828547,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2025-12-05T19:01:02Z",
+                "open_issues": 126,
                 "owner": "canopyai",
                 "repo": "Orpheus-TTS",
-                "stars": 6319
+                "stars": 6319,
+                "topics": [
+                  "llm",
+                  "realtime",
+                  "tts"
+                ]
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -230,12 +381,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Fast and local neural text-to-speech engine",
+                "homepage": null,
                 "id": 956792596,
                 "language": "C++",
+                "license": "GPL-3.0",
                 "last_commit": "2026-08-22T07:10:02Z",
+                "open_issues": 122,
                 "owner": "OHF-Voice",
                 "repo": "piper1-gpl",
-                "stars": 5310
+                "stars": 5311,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             },
@@ -246,12 +402,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+                "homepage": "https://coqui-tts.readthedocs.io",
                 "id": 712370652,
                 "language": "Python",
+                "license": "MPL-2.0",
                 "last_commit": "2026-06-10T09:01:00Z",
+                "open_issues": 17,
                 "owner": "idiap",
                 "repo": "coqui-ai-TTS",
-                "stars": 2312
+                "stars": 2312,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
             }
@@ -273,12 +434,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Silero VAD: pre-trained enterprise-grade Voice Activity Detector",
+            "homepage": null,
             "id": 315270108,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-24T06:47:25Z",
+            "open_issues": 11,
             "owner": "snakers4",
             "repo": "silero-vad",
-            "stars": 10078
+            "stars": 10078,
+            "topics": [
+              "onnx",
+              "onnx-runtime",
+              "onnxruntime",
+              "pytorch",
+              "speech",
+              "speech-processing",
+              "vad",
+              "voice-activity-detection",
+              "voice-commands",
+              "voice-control",
+              "voice-detection",
+              "voice-recognition"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -289,12 +468,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Python interface to the WebRTC Voice Activity Detector ",
+            "homepage": null,
             "id": 56901410,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2024-07-04T02:23:24Z",
+            "open_issues": 51,
             "owner": "wiseman",
             "repo": "py-webrtcvad",
-            "stars": 2498
+            "stars": 2498,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -305,12 +489,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 943468183,
             "language": "Python",
+            "license": "BSD-2-Clause",
             "last_commit": "2026-01-29T12:30:26Z",
+            "open_issues": 19,
             "owner": "pipecat-ai",
             "repo": "smart-turn",
-            "stars": 1544
+            "stars": 1545,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         }
@@ -327,12 +516,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Recurrent neural network for audio noise reduction",
+            "homepage": null,
             "id": 99199151,
             "language": "C",
+            "license": "BSD-3-Clause",
             "last_commit": "2025-02-22T23:58:31Z",
+            "open_issues": 205,
             "owner": "xiph",
             "repo": "rnnoise",
-            "stars": 5807
+            "stars": 5808,
+            "topics": [
+              "audio",
+              "c",
+              "noise-reduction",
+              "rnn"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -343,12 +542,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Noise supression using deep filtering",
+            "homepage": "https://huggingface.co/spaces/hshr/DeepFilterNet2",
             "id": 415655246,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2024-10-17T08:35:11Z",
+            "open_issues": 66,
             "owner": "Rikorose",
             "repo": "DeepFilterNet",
-            "stars": 4636
+            "stars": 4636,
+            "topics": [
+              "audio",
+              "deep-learning",
+              "noise-suppression",
+              "pytorch",
+              "rust",
+              "speech",
+              "speech-enhancement"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         }
@@ -365,12 +577,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
+            "homepage": "https://pipecat.ai",
             "id": 736272311,
             "language": "Python",
+            "license": "BSD-2-Clause",
             "last_commit": "2026-08-28T20:24:40Z",
+            "open_issues": 246,
             "owner": "pipecat-ai",
             "repo": "pipecat",
-            "stars": 14909
+            "stars": 14919,
+            "topics": [
+              "ai",
+              "chatbot-framework",
+              "chatbots",
+              "real-time",
+              "voice",
+              "voice-assistant"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -381,12 +605,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
+            "homepage": "https://docs.livekit.io/agents",
             "id": 707441527,
             "language": "Python",
-            "last_commit": "2026-08-28T16:25:04Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T02:44:21Z",
+            "open_issues": 799,
             "owner": "livekit",
             "repo": "agents",
-            "stars": 13322
+            "stars": 13383,
+            "topics": [
+              "agents",
+              "ai",
+              "openai",
+              "real-time",
+              "video",
+              "voice"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -397,12 +633,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Automatic Speech Recognition (ASR), Speaker Verification, Speech Synthesis, Text-to-Speech (TTS), Language Modelling, Singing Voice Synthesis (SVS), Voice Conversion (VC)",
+            "homepage": null,
             "id": 89726872,
             "language": null,
+            "license": "MIT",
             "last_commit": "2023-10-19T03:52:13Z",
+            "open_issues": 8,
             "owner": "zzw922cn",
             "repo": "awesome-speech-recognition-speech-synthesis-papers",
-            "stars": 3130
+            "stars": 3130,
+            "topics": [
+              "acoustic-model",
+              "attention-mechanism",
+              "automatic-speech-recognition",
+              "cnn",
+              "diffusion-models",
+              "dnn",
+              "language-model",
+              "neural-network",
+              "papers",
+              "recognition-synthesis",
+              "rnn",
+              "roadmap",
+              "seq2seq",
+              "singing-voice-synthesis",
+              "speaker-verification",
+              "speech-recognition",
+              "speech-synthesis",
+              "timit-dataset",
+              "tts",
+              "voice-conversion"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -413,12 +675,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": "https://elevenlabs.io/docs/api-reference/getting-started",
             "id": 771997054,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-28T20:18:09Z",
+            "open_issues": 3,
             "owner": "elevenlabs",
             "repo": "examples",
-            "stars": 622
+            "stars": 622,
+            "topics": [
+              "dubbing",
+              "elevenlabs",
+              "text-to-speech"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -429,12 +700,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "List of open-source TTS, voice cloning, and music generation models",
+            "homepage": null,
             "id": 1178248327,
             "language": null,
+            "license": "MIT",
             "last_commit": "2026-08-27T10:29:27Z",
+            "open_issues": 0,
             "owner": "wildminder",
             "repo": "awesome-ai-voice",
-            "stars": 479
+            "stars": 479,
+            "topics": [
+              "ai-music",
+              "ai-voice",
+              "asr",
+              "music-generation",
+              "tts",
+              "voice-cloning"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -445,12 +728,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Pipecat example applications. Use and learn from these patterns to build your own voice AI applications.",
+            "homepage": "https://pipecat-examples-gilt.vercel.app",
             "id": 1028414340,
             "language": "Python",
+            "license": "BSD-2-Clause",
             "last_commit": "2026-08-28T22:29:48Z",
+            "open_issues": 9,
             "owner": "pipecat-ai",
             "repo": "pipecat-examples",
-            "stars": 352
+            "stars": 357,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -461,12 +749,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Pipecat voice AI agents running locally on macOS",
+            "homepage": null,
             "id": 1026949206,
             "language": "Python",
+            "license": null,
             "last_commit": "2025-08-26T19:52:15Z",
+            "open_issues": 4,
             "owner": "kwindla",
             "repo": "macos-local-voice-agents",
-            "stars": 337
+            "stars": 337,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -477,12 +770,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A complete voice AI starter for LiveKit Agents with Python.",
+            "homepage": "https://docs.livekit.io/agents/start/voice-ai",
             "id": 1011491447,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-27T03:37:39Z",
+            "open_issues": 23,
             "owner": "livekit-examples",
             "repo": "agent-starter-python",
-            "stars": 254
+            "stars": 255,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         }
@@ -499,12 +797,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
+            "homepage": "https://futureagi.com",
             "id": 1219087723,
             "language": "Python",
-            "last_commit": "2026-08-28T22:43:58Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T04:45:12Z",
+            "open_issues": 776,
             "owner": "future-agi",
             "repo": "future-agi",
-            "stars": 1862
+            "stars": 1865,
+            "topics": [
+              "ai-agents",
+              "ai-evals",
+              "ai-gateway",
+              "ai-optimization",
+              "ai-simulations",
+              "evaluation-framework",
+              "guardrails",
+              "hallucination-detection",
+              "llm",
+              "llm-evaluation",
+              "llm-observability",
+              "llmops",
+              "model-evaluation",
+              "observability",
+              "opentelemetry",
+              "rag",
+              "rag-evaluation",
+              "simulation",
+              "telemetry",
+              "tracing"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         },
@@ -515,12 +839,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Enterprise Grade, Voice AI simulation SDK for testing your AI Agents",
+            "homepage": "https://app.futureagi.com",
             "id": 1070689810,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-06-30T00:15:34Z",
+            "open_issues": 0,
             "owner": "future-agi",
             "repo": "simulate-sdk",
-            "stars": 59
+            "stars": 59,
+            "topics": [
+              "agentic-ai",
+              "ai-agents",
+              "evaluation",
+              "simulate",
+              "testing-tools",
+              "voice-ai"
+            ]
           },
           "first_seen": "2026-08-28T23:09:59.637Z"
         }
@@ -529,15 +865,41 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T23:09:59.637Z",
+    "last_updated": "2026-08-29T04:49:46.310Z",
     "original_repository_info": {
       "archived": false,
+      "description": "Set of 📝 with 🔗 to help those building Voice AI agents 🎙️🤖",
+      "homepage": "https://mahimai.ca",
       "id": 1028684768,
       "language": null,
+      "license": "MIT",
       "last_commit": "2026-08-20T10:48:49Z",
+      "open_issues": 0,
       "owner": "mahimairaja",
       "repo": "voiceai",
-      "stars": 316
+      "stars": 316,
+      "topics": [
+        "ai-agents",
+        "asr",
+        "awesome",
+        "awesome-list",
+        "beginners",
+        "conversational-ai",
+        "learning-resources",
+        "livekit",
+        "llm",
+        "pipecat",
+        "realtime-ai",
+        "speech-recognition",
+        "speech-synthesis",
+        "speech-to-text",
+        "text-to-speech",
+        "tts",
+        "voice-agents",
+        "voice-ai",
+        "voice-assistant",
+        "webrtc"
+      ]
     },
     "original_repository_sha": "956352b1dc4220e43dd9182ec25a084ccddb5062",
     "enhanced_repository": "enhansome/enhansome-voiceai",
