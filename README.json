@@ -1,258 +1,565 @@
 {
   "items": [
     {
-      "description": null,
+      "description": "The frameworks below all let you wire STT, an LLM, and TTS together. For open-source production work, LiveKit Agents and Pipecat are the two safest bets; for managed dashboards, Vapi, Retell, and Bland win on time-to-first-call.",
       "items": [
         {
           "children": [
             {
-              "node_type": "item",
-              "title": "🟡 TEN Framework",
-              "description": "Open-source framework for real-time multimodal (voice, video, text) agents with pluggable ASR, LLM, and TTS extensions; licensed Apache 2.0 with additional restrictions and backed by Agora.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": " Open-source framework for conversational voice AI agents",
-                "homepage": "https://agent.theten.ai/",
-                "id": 817354652,
-                "language": "Python",
-                "license": "NOASSERTION",
-                "last_commit": "2026-09-30T13:34:32Z",
-                "open_issues": 248,
-                "owner": "TEN-framework",
-                "repo": "ten-framework",
-                "stars": 11143,
-                "topics": [
-                  "ai",
-                  "multi-modal",
-                  "real-time",
-                  "video",
-                  "voice"
-                ]
-              },
-              "first_seen": "2026-09-27T17:54:27.606Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🔴 Ultravox (fixie-ai/ultravox)",
-              "description": "Open-weight speech LLM (a Whisper encoder feeding an LLM backbone; v0.7 runs on GLM-4.6, earlier releases on Llama, Gemma, and Qwen) that skips the separate ASR stage.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A fast multimodal LLM for real-time voice",
-                "homepage": "https://ultravox.ai",
-                "id": 807860806,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2025-12-12T18:09:40Z",
-                "open_issues": 63,
-                "owner": "fixie-ai",
-                "repo": "ultravox",
-                "stars": 4575,
-                "topics": [
-                  "ai",
-                  "llm",
-                  "slm",
-                  "speech"
-                ]
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🟡 qwen-audio-agent",
-              "description": "Full-duplex voice runtime that drives coding agents (OpenCode, Claude Code, Codex, and other ACP backends) with barge-in, parallel background tasks, and a local wake word.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents",
-                "homepage": "https://qwenaudio.github.io/qwen-audio-agent/",
-                "id": 1313435339,
-                "language": "JavaScript",
-                "license": "Apache-2.0",
-                "last_commit": "2026-09-28T11:03:03Z",
-                "open_issues": 12,
-                "owner": "QwenAudio",
-                "repo": "qwen-audio-agent",
-                "stars": 2836,
-                "topics": [
-                  "acp",
-                  "agent",
-                  "agentic-ai",
-                  "ai-coding",
-                  "claude-code",
-                  "codex",
-                  "developer-tools",
-                  "opencode",
-                  "speech-recognition",
-                  "text-to-speech",
-                  "voice-agent",
-                  "voice-ai",
-                  "voice-chat"
-                ]
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "🟡 TEN Framework",
+                  "description": "Open-source framework for real-time multimodal (voice, video, text) agents with pluggable ASR, LLM, and TTS extensions; licensed Apache 2.0 with additional restrictions and backed by Agora.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": " Open-source framework for conversational voice AI agents",
+                    "homepage": "https://agent.theten.ai/",
+                    "id": 817354652,
+                    "language": "Python",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-10-03T03:31:36Z",
+                    "open_issues": 247,
+                    "owner": "TEN-framework",
+                    "repo": "ten-framework",
+                    "stars": 11142,
+                    "topics": [
+                      "ai",
+                      "multi-modal",
+                      "real-time",
+                      "video",
+                      "voice"
+                    ]
+                  },
+                  "first_seen": "2026-09-27T17:54:27.606Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🔴 Ultravox (fixie-ai/ultravox)",
+                  "description": "Open-weight speech LLM (a Whisper encoder feeding an LLM backbone; v0.7 runs on GLM-4.6, earlier releases on Llama, Gemma, and Qwen) that skips the separate ASR stage.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "A fast multimodal LLM for real-time voice",
+                    "homepage": "https://ultravox.ai",
+                    "id": 807860806,
+                    "language": "Python",
+                    "license": "MIT",
+                    "last_commit": "2025-12-12T18:09:40Z",
+                    "open_issues": 63,
+                    "owner": "fixie-ai",
+                    "repo": "ultravox",
+                    "stars": 4573,
+                    "topics": [
+                      "ai",
+                      "llm",
+                      "slm",
+                      "speech"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 qwen-audio-agent",
+                  "description": "Full-duplex voice runtime that drives coding agents (OpenCode, Claude Code, Codex, and other ACP backends) with barge-in, parallel background tasks, and a local wake word.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents",
+                    "homepage": "https://qwenaudio.github.io/qwen-audio-agent/",
+                    "id": 1313435339,
+                    "language": "JavaScript",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-09-28T11:03:03Z",
+                    "open_issues": 12,
+                    "owner": "QwenAudio",
+                    "repo": "qwen-audio-agent",
+                    "stars": 2837,
+                    "topics": [
+                      "acp",
+                      "agent",
+                      "agentic-ai",
+                      "ai-coding",
+                      "claude-code",
+                      "codex",
+                      "developer-tools",
+                      "opencode",
+                      "speech-recognition",
+                      "text-to-speech",
+                      "voice-agent",
+                      "voice-ai",
+                      "voice-chat"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Open-source frameworks"
             }
           ],
           "description": null,
           "node_type": "group",
-          "title": "Open-source frameworks"
+          "title": "16 resources"
         }
       ],
-      "title": "16 resources"
+      "title": "🧩 2. Frameworks and orchestration platforms"
     },
     {
-      "description": null,
+      "description": "Pick one streaming STT and learn it deeply before shopping around. Deepgram, AssemblyAI, and Whisper-derivatives cover most use cases. (All-in-one ASR + end-of-turn models like Deepgram Flux are covered under turn-taking.)",
+      "items": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "🟢 openai/whisper",
+                  "description": "The original repo and the de facto starting point for any DIY ASR project.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+                    "homepage": null,
+                    "id": 537603333,
+                    "language": "Python",
+                    "license": "MIT",
+                    "last_commit": "2026-08-31T17:19:19Z",
+                    "open_issues": 158,
+                    "owner": "openai",
+                    "repo": "whisper",
+                    "stars": 109888,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 SYSTRAN/faster-whisper",
+                  "description": "CTranslate2 reimplementation up to 4× faster with INT8; recommended for self-hosted Whisper.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Faster Whisper transcription with CTranslate2",
+                    "homepage": null,
+                    "id": 600368121,
+                    "language": "Python",
+                    "license": "MIT",
+                    "last_commit": "2026-10-01T14:01:34Z",
+                    "open_issues": 116,
+                    "owner": "SYSTRAN",
+                    "repo": "faster-whisper",
+                    "stars": 25678,
+                    "topics": [
+                      "deep-learning",
+                      "inference",
+                      "openai",
+                      "quantization",
+                      "speech-recognition",
+                      "speech-to-text",
+                      "transformer",
+                      "whisper"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 FunASR",
+                  "description": "Industrial open-source ASR toolkit with Paraformer, SenseVoice, VAD, punctuation, diarization, streaming services, and an OpenAI-compatible API for self-hosted voice agents.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
+                    "homepage": "www.funasr.com",
+                    "id": 569959091,
+                    "language": "Python",
+                    "license": "MIT",
+                    "last_commit": "2026-10-02T04:51:05Z",
+                    "open_issues": 37,
+                    "owner": "modelscope",
+                    "repo": "FunASR",
+                    "stars": 20571,
+                    "topics": [
+                      "asr",
+                      "audio",
+                      "chinese",
+                      "emotion-recognition",
+                      "funasr",
+                      "mcp-server",
+                      "multilingual-asr",
+                      "openai-compatible-api",
+                      "paraformer",
+                      "punctuation",
+                      "pytorch",
+                      "real-time-asr",
+                      "speaker-diarization",
+                      "speech-recognition",
+                      "speech-to-text",
+                      "streaming-asr",
+                      "transcription",
+                      "vllm",
+                      "voice-activity-detection",
+                      "whisper-alternative"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🔴 NVIDIA NeMo (Parakeet / Canary)",
+                  "description": "Top-of-leaderboard open ASR models with streaming inference recipes.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+                    "homepage": "https://docs.nvidia.com/nemo/speech/nightly/index.html",
+                    "id": 200722670,
+                    "language": "Python",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-10-03T00:39:58Z",
+                    "open_issues": 327,
+                    "owner": "NVIDIA-NeMo",
+                    "repo": "Speech",
+                    "stars": 18539,
+                    "topics": [
+                      "asr",
+                      "deeplearning",
+                      "generative-ai",
+                      "machine-translation",
+                      "neural-networks",
+                      "speaker-diariazation",
+                      "speaker-recognition",
+                      "speech-synthesis",
+                      "speech-translation",
+                      "tts"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 Moonshine",
+                  "description": "On-device voice toolkit (STT, TTS, and an agent loop) with MIT models from 1 MB up to beyond Whisper Large V3 accuracy, running in Python, WASM, iOS, Android, and on Raspberry Pi.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+                    "homepage": "https://moonshine.ai",
+                    "id": 867866058,
+                    "language": "C++",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-10-02T17:52:19Z",
+                    "open_issues": 12,
+                    "owner": "moonshine-ai",
+                    "repo": "moonshine",
+                    "stars": 11174,
+                    "topics": [
+                      "intent-recognition",
+                      "stt",
+                      "tts",
+                      "voice",
+                      "voice-recognition"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 SenseVoice",
+                  "description": "Multilingual speech understanding model for ASR, language identification, emotion recognition, and audio event detection, with FunASR integration and ONNX/libtorch export examples.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Open-source SenseVoiceSmall model for Mandarin, Cantonese, English, Japanese, and Korean ASR, language ID, emotion recognition, and audio event detection.",
+                    "homepage": "https://huggingface.co/spaces/FunAudioLLM/SenseVoice",
+                    "id": 823429665,
+                    "language": "C",
+                    "license": "MIT",
+                    "last_commit": "2026-09-30T10:22:01Z",
+                    "open_issues": 11,
+                    "owner": "QwenAudio",
+                    "repo": "SenseVoice",
+                    "stars": 9429,
+                    "topics": [
+                      "asr",
+                      "audio-analysis",
+                      "audio-event-detection",
+                      "cantonese",
+                      "cross-lingual",
+                      "emotion-detection",
+                      "funasr",
+                      "language-identification",
+                      "llama-cpp",
+                      "multilingual",
+                      "multilingual-asr",
+                      "pytorch",
+                      "sensevoice",
+                      "speech-emotion-recognition",
+                      "speech-recognition",
+                      "speech-to-text",
+                      "speech-understanding",
+                      "transcription",
+                      "voice-ai",
+                      "whisper-alternative"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 Qwen3-ASR",
+                  "description": "Open-weight ASR from the Qwen team covering 52 languages with streaming inference; a strong self-hosted multilingual option.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song recognition, language detection and timestamp prediction.",
+                    "homepage": null,
+                    "id": 1143942597,
+                    "language": "Python",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-06-26T08:20:17Z",
+                    "open_issues": 25,
+                    "owner": "QwenLM",
+                    "repo": "Qwen3-ASR",
+                    "stars": 3636,
+                    "topics": []
+                  },
+                  "first_seen": "2026-09-27T17:54:27.606Z"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Open source"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "🟡 pipecat-ai/stt-benchmark",
+                  "description": "Open streaming STT benchmark scoring 23 models on 1,000 real voice-agent utterances by semantic WER and time to final segment (median, P95, P99), with code and data to rerun it; note the commercial author.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Benchmarking STT service TTFB and semantic WER for real-time AI applications",
+                    "homepage": null,
+                    "id": 1139482183,
+                    "language": "Python",
+                    "license": "BSD-2-Clause",
+                    "last_commit": "2026-10-01T02:42:50Z",
+                    "open_issues": 3,
+                    "owner": "pipecat-ai",
+                    "repo": "stt-benchmark",
+                    "stars": 132,
+                    "topics": []
+                  },
+                  "first_seen": "2026-09-27T17:54:27.606Z"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Benchmarks and explainers"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "25 resources"
+        }
+      ],
+      "title": "🎧 3. Speech-to-text (STT / ASR)"
+    },
+    {
+      "description": "Latency, not raw quality, is what kills voice agents: prioritize providers offering true streaming with first-byte under 200 ms.",
+      "items": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "🟡 Chatterbox (resemble-ai/chatterbox)",
+                  "description": "Resemble AI's MIT-licensed TTS (vendor-reported to beat ElevenLabs in blind preference tests); ~5 s zero-shot voice cloning, emotion-exaggeration control, and a built-in PerTh watermark. Turbo (350M) hits sub-150 ms first audio, Nano (110M) runs 3× real time on CPU, and Multilingual (V3, 0.5B) covers 23+ languages.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "SoTA open-source TTS",
+                    "homepage": "https://resemble-ai.github.io/chatterbox_demopage/",
+                    "id": 971241545,
+                    "language": "Python",
+                    "license": "MIT",
+                    "last_commit": "2026-07-21T12:27:05Z",
+                    "open_issues": 372,
+                    "owner": "resemble-ai",
+                    "repo": "chatterbox",
+                    "stars": 26657,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 Qwen3-TTS",
+                  "description": "Apache-2.0 open-weight TTS from the Qwen team with streaming output across 10 languages.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.",
+                    "homepage": null,
+                    "id": 1138817132,
+                    "language": "Python",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-03-17T06:38:41Z",
+                    "open_issues": 56,
+                    "owner": "QwenLM",
+                    "repo": "Qwen3-TTS",
+                    "stars": 13616,
+                    "topics": []
+                  },
+                  "first_seen": "2026-09-27T17:54:27.606Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 Orpheus-TTS",
+                  "description": "Llama-3B-based emotive TTS with ~200 ms streaming and emotion tags.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Towards Human-Sounding Speech",
+                    "homepage": "https://canopylabs.ai",
+                    "id": 944828547,
+                    "language": "Python",
+                    "license": "Apache-2.0",
+                    "last_commit": "2025-12-05T19:01:02Z",
+                    "open_issues": 126,
+                    "owner": "canopyai",
+                    "repo": "Orpheus-TTS",
+                    "stars": 6345,
+                    "topics": [
+                      "llm",
+                      "realtime",
+                      "tts"
+                    ]
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 Piper (OHF-Voice/piper1-gpl)",
+                  "description": "Fast local neural TTS optimized for Raspberry Pi; perfect for offline projects.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Fast and local neural text-to-speech engine",
+                    "homepage": null,
+                    "id": 956792596,
+                    "language": "C++",
+                    "license": "GPL-3.0",
+                    "last_commit": "2026-09-28T20:17:35Z",
+                    "open_issues": 140,
+                    "owner": "OHF-Voice",
+                    "repo": "piper1-gpl",
+                    "stars": 5745,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 Kokoro 82M (kokoro-onnx)",
+                  "description": "Maintained ONNX runtime for the tiny Apache-licensed Kokoro model that tops community ELO arenas; runs on CPU (the upstream weights have not changed since 2025).",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "TTS with kokoro and onnx runtime",
+                    "homepage": "https://pypi.org/project/kokoro-onnx",
+                    "id": 911666237,
+                    "language": "Python",
+                    "license": "MIT",
+                    "last_commit": "2026-09-01T20:26:36Z",
+                    "open_issues": 80,
+                    "owner": "thewh1teagle",
+                    "repo": "kokoro-onnx",
+                    "stars": 2753,
+                    "topics": [
+                      "kokoro",
+                      "onnxruntime",
+                      "python",
+                      "tts"
+                    ]
+                  },
+                  "first_seen": "2026-09-27T17:54:27.606Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 Coqui TTS (idiap fork)",
+                  "description": "Maintained fork of Coqui-TTS / XTTS v2; still battle-tested, though Chatterbox now leads on zero-shot cloning quality.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+                    "homepage": "https://coqui-tts.readthedocs.io",
+                    "id": 712370652,
+                    "language": "Python",
+                    "license": "MPL-2.0",
+                    "last_commit": "2026-10-02T14:22:56Z",
+                    "open_issues": 19,
+                    "owner": "idiap",
+                    "repo": "coqui-ai-TTS",
+                    "stars": 2334,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-28T23:09:59.637Z"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Open source"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "17 resources"
+        }
+      ],
+      "title": "🗣️ 4. Text-to-speech (TTS)"
+    },
+    {
+      "description": "Pure VAD is no longer enough: modern agents combine acoustic VAD with a small semantic model that predicts end-of-utterance from words and prosody.",
       "items": [
         {
           "children": [
             {
               "node_type": "item",
-              "title": "🟢 openai/whisper",
-              "description": "The original repo and the de facto starting point for any DIY ASR project.",
+              "title": "🟢 Silero VAD",
+              "description": "MIT-licensed pre-trained VAD; <1 ms per chunk on CPU. The de facto VAD inside LiveKit and Pipecat.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+                "description": "Silero VAD: pre-trained enterprise-grade Voice Activity Detector",
                 "homepage": null,
-                "id": 537603333,
+                "id": 315270108,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-08-31T17:19:19Z",
-                "open_issues": 158,
-                "owner": "openai",
-                "repo": "whisper",
-                "stars": 109876,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🟡 SYSTRAN/faster-whisper",
-              "description": "CTranslate2 reimplementation up to 4× faster with INT8; recommended for self-hosted Whisper.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Faster Whisper transcription with CTranslate2",
-                "homepage": null,
-                "id": 600368121,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-10-01T14:01:34Z",
-                "open_issues": 162,
-                "owner": "SYSTRAN",
-                "repo": "faster-whisper",
-                "stars": 25677,
+                "last_commit": "2026-09-29T10:20:28Z",
+                "open_issues": 13,
+                "owner": "snakers4",
+                "repo": "silero-vad",
+                "stars": 10344,
                 "topics": [
-                  "deep-learning",
-                  "inference",
-                  "openai",
-                  "quantization",
-                  "speech-recognition",
-                  "speech-to-text",
-                  "transformer",
-                  "whisper"
-                ]
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🟡 FunASR",
-              "description": "Industrial open-source ASR toolkit with Paraformer, SenseVoice, VAD, punctuation, diarization, streaming services, and an OpenAI-compatible API for self-hosted voice agents.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
-                "homepage": "www.funasr.com",
-                "id": 569959091,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-10-02T04:51:05Z",
-                "open_issues": 36,
-                "owner": "modelscope",
-                "repo": "FunASR",
-                "stars": 20569,
-                "topics": [
-                  "asr",
-                  "audio",
-                  "chinese",
-                  "emotion-recognition",
-                  "funasr",
-                  "mcp-server",
-                  "multilingual-asr",
-                  "openai-compatible-api",
-                  "paraformer",
-                  "punctuation",
+                  "onnx",
+                  "onnx-runtime",
+                  "onnxruntime",
                   "pytorch",
-                  "real-time-asr",
-                  "speaker-diarization",
-                  "speech-recognition",
-                  "speech-to-text",
-                  "streaming-asr",
-                  "transcription",
-                  "vllm",
+                  "speech",
+                  "speech-processing",
+                  "vad",
                   "voice-activity-detection",
-                  "whisper-alternative"
-                ]
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🔴 NVIDIA NeMo (Parakeet / Canary)",
-              "description": "Top-of-leaderboard open ASR models with streaming inference recipes.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
-                "homepage": "https://docs.nvidia.com/nemo/speech/nightly/index.html",
-                "id": 200722670,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-10-02T16:11:38Z",
-                "open_issues": 325,
-                "owner": "NVIDIA-NeMo",
-                "repo": "Speech",
-                "stars": 18539,
-                "topics": [
-                  "asr",
-                  "deeplearning",
-                  "generative-ai",
-                  "machine-translation",
-                  "neural-networks",
-                  "speaker-diariazation",
-                  "speaker-recognition",
-                  "speech-synthesis",
-                  "speech-translation",
-                  "tts"
-                ]
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🟡 Moonshine",
-              "description": "On-device voice toolkit (STT, TTS, and an agent loop) with MIT models from 1 MB up to beyond Whisper Large V3 accuracy, running in Python, WASM, iOS, Android, and on Raspberry Pi.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
-                "homepage": "https://moonshine.ai",
-                "id": 867866058,
-                "language": "C++",
-                "license": "NOASSERTION",
-                "last_commit": "2026-10-02T17:52:19Z",
-                "open_issues": 12,
-                "owner": "moonshine-ai",
-                "repo": "moonshine",
-                "stars": 11171,
-                "topics": [
-                  "intent-recognition",
-                  "stt",
-                  "tts",
-                  "voice",
+                  "voice-commands",
+                  "voice-control",
+                  "voice-detection",
                   "voice-recognition"
                 ]
               },
@@ -260,91 +567,42 @@
             },
             {
               "node_type": "item",
-              "title": "🟡 SenseVoice",
-              "description": "Multilingual speech understanding model for ASR, language identification, emotion recognition, and audio event detection, with FunASR integration and ONNX/libtorch export examples.",
+              "title": "🟡 pipecat-ai/smart-turn",
+              "description": "Repo with model code, training scripts, and integration examples (~8M params, Whisper-Tiny base).",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Open-source SenseVoiceSmall model for Mandarin, Cantonese, English, Japanese, and Korean ASR, language ID, emotion recognition, and audio event detection.",
-                "homepage": "https://huggingface.co/spaces/FunAudioLLM/SenseVoice",
-                "id": 823429665,
-                "language": "C",
-                "license": "MIT",
-                "last_commit": "2026-09-30T10:22:01Z",
-                "open_issues": 10,
-                "owner": "QwenAudio",
-                "repo": "SenseVoice",
-                "stars": 9428,
-                "topics": [
-                  "asr",
-                  "audio-analysis",
-                  "audio-event-detection",
-                  "cantonese",
-                  "cross-lingual",
-                  "emotion-detection",
-                  "funasr",
-                  "language-identification",
-                  "llama-cpp",
-                  "multilingual",
-                  "multilingual-asr",
-                  "pytorch",
-                  "sensevoice",
-                  "speech-emotion-recognition",
-                  "speech-recognition",
-                  "speech-to-text",
-                  "speech-understanding",
-                  "transcription",
-                  "voice-ai",
-                  "whisper-alternative"
-                ]
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🟡 Qwen3-ASR",
-              "description": "Open-weight ASR from the Qwen team covering 52 languages with streaming inference; a strong self-hosted multilingual option.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song recognition, language detection and timestamp prediction.",
+                "description": null,
                 "homepage": null,
-                "id": 1143942597,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-06-26T08:20:17Z",
-                "open_issues": 25,
-                "owner": "QwenLM",
-                "repo": "Qwen3-ASR",
-                "stars": 3635,
-                "topics": []
-              },
-              "first_seen": "2026-09-27T17:54:27.606Z"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "Open source"
-        },
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "🟡 pipecat-ai/stt-benchmark",
-              "description": "Open streaming STT benchmark scoring 23 models on 1,000 real voice-agent utterances by semantic WER and time to final segment (median, P95, P99), with code and data to rerun it; note the commercial author.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Benchmarking STT service TTFB and semantic WER for real-time AI applications",
-                "homepage": null,
-                "id": 1139482183,
+                "id": 943468183,
                 "language": "Python",
                 "license": "BSD-2-Clause",
-                "last_commit": "2026-10-01T02:42:50Z",
-                "open_issues": 3,
+                "last_commit": "2026-01-29T12:30:26Z",
+                "open_issues": 19,
                 "owner": "pipecat-ai",
-                "repo": "stt-benchmark",
-                "stars": 132,
+                "repo": "smart-turn",
+                "stars": 1600,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T23:09:59.637Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🟡 eot-bench (LiveKit)",
+              "description": "Open, reproducible end-of-turn benchmark that scores models at real pauses under latency and false-cutoff budgets, with an Apache-2.0 dataset of real human-to-agent turns in 14 languages; note the commercial author.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "LiveKit End-of-Turn Benchmark",
+                "homepage": "https://livekit.com/benchmarks/eot-bench",
+                "id": 1263924433,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-09-16T08:25:18Z",
+                "open_issues": 3,
+                "owner": "livekit",
+                "repo": "eot-bench",
+                "stars": 60,
                 "topics": []
               },
               "first_seen": "2026-09-27T17:54:27.606Z"
@@ -352,147 +610,242 @@
           ],
           "description": null,
           "node_type": "group",
-          "title": "Benchmarks and explainers"
+          "title": "13 resources"
         }
       ],
-      "title": "25 resources"
+      "title": "🔀 6. Voice activity detection and turn-taking"
     },
     {
-      "description": null,
+      "description": "The audio reaching your VAD and STT is often noisy, reverberant, or mixed with background voices. Cleaning the signal before the rest of the pipeline is frequently the difference between an agent that ships and one that frustrates users in real-world conditions (cars, cafés, call centres). In 2026 every major voice-AI vendor ships a deep-learning suppressor on top of WebRTC's classic noise-suppression chain.",
       "items": [
         {
           "children": [
             {
               "node_type": "item",
-              "title": "🟡 Chatterbox (resemble-ai/chatterbox)",
-              "description": "Resemble AI's MIT-licensed TTS (vendor-reported to beat ElevenLabs in blind preference tests); ~5 s zero-shot voice cloning, emotion-exaggeration control, and a built-in PerTh watermark. Turbo (350M) hits sub-150 ms first audio, Nano (110M) runs 3× real time on CPU, and Multilingual (V3, 0.5B) covers 23+ languages.",
+              "title": "🟡 GTCRN (Xiaobin-Rong/gtcrn)",
+              "description": "Ultra-light speech enhancement model (48.2K parameters, 33 MMACs/s, ICASSP 2024, MIT); a tiny, well-understood baseline for constrained devices.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "SoTA open-source TTS",
-                "homepage": "https://resemble-ai.github.io/chatterbox_demopage/",
-                "id": 971241545,
+                "description": "The official implementation of GTCRN, an ultra-lightweight SE model.",
+                "homepage": null,
+                "id": 685987743,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-07-21T12:27:05Z",
-                "open_issues": 372,
-                "owner": "resemble-ai",
-                "repo": "chatterbox",
-                "stars": 26647,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🟡 Qwen3-TTS",
-              "description": "Apache-2.0 open-weight TTS from the Qwen team with streaming output across 10 languages.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.",
-                "homepage": null,
-                "id": 1138817132,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-03-17T06:38:41Z",
-                "open_issues": 56,
-                "owner": "QwenLM",
-                "repo": "Qwen3-TTS",
-                "stars": 13615,
-                "topics": []
-              },
-              "first_seen": "2026-09-27T17:54:27.606Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🟡 Orpheus-TTS",
-              "description": "Llama-3B-based emotive TTS with ~200 ms streaming and emotion tags.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Towards Human-Sounding Speech",
-                "homepage": "https://canopylabs.ai",
-                "id": 944828547,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2025-12-05T19:01:02Z",
-                "open_issues": 126,
-                "owner": "canopyai",
-                "repo": "Orpheus-TTS",
-                "stars": 6346,
+                "last_commit": "2026-08-03T09:15:12Z",
+                "open_issues": 8,
+                "owner": "Xiaobin-Rong",
+                "repo": "gtcrn",
+                "stars": 749,
                 "topics": [
-                  "llm",
-                  "realtime",
-                  "tts"
-                ]
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🟢 Piper (OHF-Voice/piper1-gpl)",
-              "description": "Fast local neural TTS optimized for Raspberry Pi; perfect for offline projects.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Fast and local neural text-to-speech engine",
-                "homepage": null,
-                "id": 956792596,
-                "language": "C++",
-                "license": "GPL-3.0",
-                "last_commit": "2026-09-28T20:17:35Z",
-                "open_issues": 140,
-                "owner": "OHF-Voice",
-                "repo": "piper1-gpl",
-                "stars": 5746,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T23:09:59.637Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🟢 Kokoro 82M (kokoro-onnx)",
-              "description": "Maintained ONNX runtime for the tiny Apache-licensed Kokoro model that tops community ELO arenas; runs on CPU (the upstream weights have not changed since 2025).",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "TTS with kokoro and onnx runtime",
-                "homepage": "https://pypi.org/project/kokoro-onnx",
-                "id": 911666237,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-09-01T20:26:36Z",
-                "open_issues": 80,
-                "owner": "thewh1teagle",
-                "repo": "kokoro-onnx",
-                "stars": 2753,
-                "topics": [
-                  "kokoro",
-                  "onnxruntime",
-                  "python",
-                  "tts"
+                  "lightweight",
+                  "speech-enhancement"
                 ]
               },
               "first_seen": "2026-09-27T17:54:27.606Z"
             },
             {
               "node_type": "item",
-              "title": "🟡 Coqui TTS (idiap fork)",
-              "description": "Maintained fork of Coqui-TTS / XTTS v2; still battle-tested, though Chatterbox now leads on zero-shot cloning quality.",
+              "title": "🟡 DPDFNet (ceva-ip/DPDFNet)",
+              "description": "Apache-2.0 real-time speech enhancement that extends DeepFilterNet2 with dual-path RNN blocks; 2.3M to 3.6M-parameter models for 8, 16, and 48 kHz audio with ONNX and TFLite exports; note the commercial author.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
-                "homepage": "https://coqui-tts.readthedocs.io",
-                "id": 712370652,
+                "description": "Clean up noisy speech in real time with DPDFNet - open-source streaming speech enhancement for research, audio apps, and edge devices. Includes pretrained models, PyTorch code, ONNX/TFLite inference, 8/16/48 kHz support, and live demos.",
+                "homepage": null,
+                "id": 1118253049,
                 "language": "Python",
-                "license": "MPL-2.0",
-                "last_commit": "2026-10-02T14:22:56Z",
-                "open_issues": 19,
-                "owner": "idiap",
-                "repo": "coqui-ai-TTS",
-                "stars": 2333,
+                "license": "Apache-2.0",
+                "last_commit": "2026-09-27T12:26:19Z",
+                "open_issues": 3,
+                "owner": "ceva-ip",
+                "repo": "DPDFNet",
+                "stars": 156,
+                "topics": [
+                  "audio",
+                  "audio-denoising",
+                  "audio-processing",
+                  "deep-learning",
+                  "deepfilternet",
+                  "deepfilternet2",
+                  "dprnn",
+                  "dual-path-rnn",
+                  "edge-ai",
+                  "low-latency",
+                  "noise-suppression",
+                  "onnx",
+                  "pytorch",
+                  "real-time-audio",
+                  "speech-denoising",
+                  "speech-enhancement",
+                  "speech-processing",
+                  "streaming-audio",
+                  "tflite",
+                  "voice-enhancement"
+                ]
+              },
+              "first_seen": "2026-09-27T17:54:27.606Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "6 resources"
+        }
+      ],
+      "title": "🔊 7. Audio enhancement and noise suppression"
+    },
+    {
+      "description": "Clone these instead of writing boilerplate from scratch.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢→🔴 pipecat-ai/pipecat",
+              "description": "Vendor-neutral framework with 80+ STT/LLM/TTS service integrations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
+                "homepage": "https://pipecat.ai",
+                "id": 736272311,
+                "language": "Python",
+                "license": "BSD-2-Clause",
+                "last_commit": "2026-10-03T02:28:03Z",
+                "open_issues": 385,
+                "owner": "pipecat-ai",
+                "repo": "pipecat",
+                "stars": 16150,
+                "topics": [
+                  "ai",
+                  "chatbot-framework",
+                  "chatbots",
+                  "real-time",
+                  "voice",
+                  "voice-assistant"
+                ]
+              },
+              "first_seen": "2026-08-28T23:09:59.637Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🟢→🔴 livekit/agents",
+              "description": "The flagship open-source Python/Node framework for production voice agents (tip: pair it with the LiveKit Docs MCP server and Agent Skill for AI-assisted builds).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
+                "homepage": "https://docs.livekit.io/agents",
+                "id": 707441527,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-03T01:30:21Z",
+                "open_issues": 936,
+                "owner": "livekit",
+                "repo": "agents",
+                "stars": 14454,
+                "topics": [
+                  "agents",
+                  "ai",
+                  "openai",
+                  "real-time",
+                  "video",
+                  "voice"
+                ]
+              },
+              "first_seen": "2026-08-28T23:09:59.637Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 elevenlabs/elevenlabs-examples",
+              "description": "Runnable Next.js and Python examples for TTS, STT, and real-time agents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": "https://elevenlabs.io/docs/api-reference/getting-started",
+                "id": 771997054,
+                "language": "TypeScript",
+                "license": "MIT",
+                "last_commit": "2026-10-02T13:13:03Z",
+                "open_issues": 1,
+                "owner": "elevenlabs",
+                "repo": "examples",
+                "stars": 628,
+                "topics": [
+                  "dubbing",
+                  "elevenlabs",
+                  "text-to-speech"
+                ]
+              },
+              "first_seen": "2026-08-28T23:09:59.637Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 wildminder/awesome-ai-voice",
+              "description": "Actively maintained 2026 list of open-source TTS, voice-cloning, and audio/music-generation models.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "List of open-source TTS, voice cloning, and music generation models",
+                "homepage": null,
+                "id": 1178248327,
+                "language": null,
+                "license": "MIT",
+                "last_commit": "2026-09-23T19:13:54Z",
+                "open_issues": 0,
+                "owner": "wildminder",
+                "repo": "awesome-ai-voice",
+                "stars": 502,
+                "topics": [
+                  "ai-music",
+                  "ai-voice",
+                  "asr",
+                  "music-generation",
+                  "tts",
+                  "voice-cloning"
+                ]
+              },
+              "first_seen": "2026-08-28T23:09:59.637Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🟢→🟡 pipecat-ai/pipecat-examples",
+              "description": "Sample apps for push-to-talk, websocket, telephony, and multimodal use cases.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Pipecat example applications. Use and learn from these patterns to build your own voice AI applications.",
+                "homepage": "https://pipecat-examples-gilt.vercel.app",
+                "id": 1028414340,
+                "language": "Python",
+                "license": "BSD-2-Clause",
+                "last_commit": "2026-09-23T20:10:18Z",
+                "open_issues": 5,
+                "owner": "pipecat-ai",
+                "repo": "pipecat-examples",
+                "stars": 391,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T23:09:59.637Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 livekit-examples/agent-starter-python",
+              "description": "Production-ready starter with Dockerfile, CI-run conversation simulations, a multilingual turn detector, and core plugins.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A complete voice AI starter for LiveKit Agents with Python.",
+                "homepage": "https://docs.livekit.io/agents/start/voice-ai",
+                "id": 1011491447,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-02T21:27:19Z",
+                "open_issues": 25,
+                "owner": "livekit-examples",
+                "repo": "agent-starter-python",
+                "stars": 264,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
@@ -500,404 +853,100 @@
           ],
           "description": null,
           "node_type": "group",
-          "title": "Open source"
+          "title": "7 resources"
         }
       ],
-      "title": "17 resources"
+      "title": "📦 11. GitHub starter repos and awesome lists"
     },
     {
-      "description": null,
+      "description": "You can't ship what you can't measure. Voice-agent evaluation is fundamentally probabilistic: a single transcript can pass and fail across runs, so simulation and statistics matter more than fixed test cases.",
       "items": [
         {
-          "node_type": "item",
-          "title": "🟢 Silero VAD",
-          "description": "MIT-licensed pre-trained VAD; <1 ms per chunk on CPU. The de facto VAD inside LiveKit and Pipecat.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Silero VAD: pre-trained enterprise-grade Voice Activity Detector",
-            "homepage": null,
-            "id": 315270108,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2026-09-29T10:20:28Z",
-            "open_issues": 13,
-            "owner": "snakers4",
-            "repo": "silero-vad",
-            "stars": 10343,
-            "topics": [
-              "onnx",
-              "onnx-runtime",
-              "onnxruntime",
-              "pytorch",
-              "speech",
-              "speech-processing",
-              "vad",
-              "voice-activity-detection",
-              "voice-commands",
-              "voice-control",
-              "voice-detection",
-              "voice-recognition"
-            ]
-          },
-          "first_seen": "2026-08-28T23:09:59.637Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🟡 pipecat-ai/smart-turn",
-          "description": "Repo with model code, training scripts, and integration examples (~8M params, Whisper-Tiny base).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": null,
-            "homepage": null,
-            "id": 943468183,
-            "language": "Python",
-            "license": "BSD-2-Clause",
-            "last_commit": "2026-01-29T12:30:26Z",
-            "open_issues": 19,
-            "owner": "pipecat-ai",
-            "repo": "smart-turn",
-            "stars": 1600,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T23:09:59.637Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🟡 eot-bench (LiveKit)",
-          "description": "Open, reproducible end-of-turn benchmark that scores models at real pauses under latency and false-cutoff budgets, with an Apache-2.0 dataset of real human-to-agent turns in 14 languages; note the commercial author.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "LiveKit End-of-Turn Benchmark",
-            "homepage": "https://livekit.com/benchmarks/eot-bench",
-            "id": 1263924433,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-09-16T08:25:18Z",
-            "open_issues": 3,
-            "owner": "livekit",
-            "repo": "eot-bench",
-            "stars": 60,
-            "topics": []
-          },
-          "first_seen": "2026-09-27T17:54:27.606Z"
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟡 Future AGI",
+              "description": "Open-source platform to simulate, evaluate, trace, guardrail, and optimize voice and AI agent apps in one feedback loop, with persona-driven simulation (through its Simulate SDK) and 50+ eval metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
+                "homepage": "https://futureagi.com",
+                "id": 1219087723,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-03T01:54:41Z",
+                "open_issues": 1013,
+                "owner": "future-agi",
+                "repo": "future-agi",
+                "stars": 2107,
+                "topics": [
+                  "agent-evaluation",
+                  "ai-agents",
+                  "ai-evals",
+                  "ai-gateway",
+                  "ai-observability",
+                  "evals",
+                  "evaluation-framework",
+                  "guardrails",
+                  "hallucination-detection",
+                  "llm-evaluation",
+                  "llm-observability",
+                  "llm-tracing",
+                  "llmops",
+                  "model-evaluation",
+                  "observability",
+                  "opentelemetry",
+                  "rag-evaluation",
+                  "simulation",
+                  "telemetry",
+                  "tracing"
+                ]
+              },
+              "first_seen": "2026-08-28T23:09:59.637Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🟡 EVA (ServiceNow)",
+              "description": "Open-source bot-to-bot framework that scores cascaded and speech-to-speech voice agents on accuracy and experience across 213 enterprise scenarios; none of the 12 systems tested clears 0.5 on both; note the commercial author.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A New End-to-end Framework for Evaluating Voice Agents",
+                "homepage": "https://servicenow.github.io/eva/",
+                "id": 1190112610,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-09-29T19:31:18Z",
+                "open_issues": 22,
+                "owner": "ServiceNow",
+                "repo": "eva",
+                "stars": 221,
+                "topics": [
+                  "agentic-ai",
+                  "asr",
+                  "evaluation-framework",
+                  "machine-learning",
+                  "nlp",
+                  "speech-ai",
+                  "tts",
+                  "voice-agents",
+                  "voice-ai"
+                ]
+              },
+              "first_seen": "2026-09-27T17:54:27.606Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "13 resources"
         }
       ],
-      "title": "13 resources"
-    },
-    {
-      "description": null,
-      "items": [
-        {
-          "node_type": "item",
-          "title": "🟡 GTCRN (Xiaobin-Rong/gtcrn)",
-          "description": "Ultra-light speech enhancement model (48.2K parameters, 33 MMACs/s, ICASSP 2024, MIT); a tiny, well-understood baseline for constrained devices.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "The official implementation of GTCRN, an ultra-lightweight SE model.",
-            "homepage": null,
-            "id": 685987743,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2026-08-03T09:15:12Z",
-            "open_issues": 8,
-            "owner": "Xiaobin-Rong",
-            "repo": "gtcrn",
-            "stars": 749,
-            "topics": [
-              "lightweight",
-              "speech-enhancement"
-            ]
-          },
-          "first_seen": "2026-09-27T17:54:27.606Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🟡 DPDFNet (ceva-ip/DPDFNet)",
-          "description": "Apache-2.0 real-time speech enhancement that extends DeepFilterNet2 with dual-path RNN blocks; 2.3M to 3.6M-parameter models for 8, 16, and 48 kHz audio with ONNX and TFLite exports; note the commercial author.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Clean up noisy speech in real time with DPDFNet - open-source streaming speech enhancement for research, audio apps, and edge devices. Includes pretrained models, PyTorch code, ONNX/TFLite inference, 8/16/48 kHz support, and live demos.",
-            "homepage": null,
-            "id": 1118253049,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-09-27T12:26:19Z",
-            "open_issues": 3,
-            "owner": "ceva-ip",
-            "repo": "DPDFNet",
-            "stars": 156,
-            "topics": [
-              "audio",
-              "audio-denoising",
-              "audio-processing",
-              "deep-learning",
-              "deepfilternet",
-              "deepfilternet2",
-              "dprnn",
-              "dual-path-rnn",
-              "edge-ai",
-              "low-latency",
-              "noise-suppression",
-              "onnx",
-              "pytorch",
-              "real-time-audio",
-              "speech-denoising",
-              "speech-enhancement",
-              "speech-processing",
-              "streaming-audio",
-              "tflite",
-              "voice-enhancement"
-            ]
-          },
-          "first_seen": "2026-09-27T17:54:27.606Z"
-        }
-      ],
-      "title": "6 resources"
-    },
-    {
-      "description": null,
-      "items": [
-        {
-          "node_type": "item",
-          "title": "🟢→🔴 pipecat-ai/pipecat",
-          "description": "Vendor-neutral framework with 80+ STT/LLM/TTS service integrations.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
-            "homepage": "https://pipecat.ai",
-            "id": 736272311,
-            "language": "Python",
-            "license": "BSD-2-Clause",
-            "last_commit": "2026-10-02T18:25:55Z",
-            "open_issues": 379,
-            "owner": "pipecat-ai",
-            "repo": "pipecat",
-            "stars": 16146,
-            "topics": [
-              "ai",
-              "chatbot-framework",
-              "chatbots",
-              "real-time",
-              "voice",
-              "voice-assistant"
-            ]
-          },
-          "first_seen": "2026-08-28T23:09:59.637Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🟢→🔴 livekit/agents",
-          "description": "The flagship open-source Python/Node framework for production voice agents (tip: pair it with the LiveKit Docs MCP server and Agent Skill for AI-assisted builds).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
-            "homepage": "https://docs.livekit.io/agents",
-            "id": 707441527,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-10-02T17:47:57Z",
-            "open_issues": 935,
-            "owner": "livekit",
-            "repo": "agents",
-            "stars": 14449,
-            "topics": [
-              "agents",
-              "ai",
-              "openai",
-              "real-time",
-              "video",
-              "voice"
-            ]
-          },
-          "first_seen": "2026-08-28T23:09:59.637Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🟢 elevenlabs/elevenlabs-examples",
-          "description": "Runnable Next.js and Python examples for TTS, STT, and real-time agents.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": null,
-            "homepage": "https://elevenlabs.io/docs/api-reference/getting-started",
-            "id": 771997054,
-            "language": "TypeScript",
-            "license": "MIT",
-            "last_commit": "2026-10-02T13:13:03Z",
-            "open_issues": 1,
-            "owner": "elevenlabs",
-            "repo": "examples",
-            "stars": 628,
-            "topics": [
-              "dubbing",
-              "elevenlabs",
-              "text-to-speech"
-            ]
-          },
-          "first_seen": "2026-08-28T23:09:59.637Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🟢 wildminder/awesome-ai-voice",
-          "description": "Actively maintained 2026 list of open-source TTS, voice-cloning, and audio/music-generation models.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "List of open-source TTS, voice cloning, and music generation models",
-            "homepage": null,
-            "id": 1178248327,
-            "language": null,
-            "license": "MIT",
-            "last_commit": "2026-09-23T19:13:54Z",
-            "open_issues": 0,
-            "owner": "wildminder",
-            "repo": "awesome-ai-voice",
-            "stars": 502,
-            "topics": [
-              "ai-music",
-              "ai-voice",
-              "asr",
-              "music-generation",
-              "tts",
-              "voice-cloning"
-            ]
-          },
-          "first_seen": "2026-08-28T23:09:59.637Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🟢→🟡 pipecat-ai/pipecat-examples",
-          "description": "Sample apps for push-to-talk, websocket, telephony, and multimodal use cases.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Pipecat example applications. Use and learn from these patterns to build your own voice AI applications.",
-            "homepage": "https://pipecat-examples-gilt.vercel.app",
-            "id": 1028414340,
-            "language": "Python",
-            "license": "BSD-2-Clause",
-            "last_commit": "2026-09-23T20:10:18Z",
-            "open_issues": 5,
-            "owner": "pipecat-ai",
-            "repo": "pipecat-examples",
-            "stars": 390,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T23:09:59.637Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🟢 livekit-examples/agent-starter-python",
-          "description": "Production-ready starter with Dockerfile, CI-run conversation simulations, a multilingual turn detector, and core plugins.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "A complete voice AI starter for LiveKit Agents with Python.",
-            "homepage": "https://docs.livekit.io/agents/start/voice-ai",
-            "id": 1011491447,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2026-10-01T22:42:59Z",
-            "open_issues": 26,
-            "owner": "livekit-examples",
-            "repo": "agent-starter-python",
-            "stars": 264,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T23:09:59.637Z"
-        }
-      ],
-      "title": "7 resources"
-    },
-    {
-      "description": null,
-      "items": [
-        {
-          "node_type": "item",
-          "title": "🟡 Future AGI",
-          "description": "Open-source platform to simulate, evaluate, trace, guardrail, and optimize voice and AI agent apps in one feedback loop, with persona-driven simulation (through its Simulate SDK) and 50+ eval metrics.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
-            "homepage": "https://futureagi.com",
-            "id": 1219087723,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-10-02T15:40:14Z",
-            "open_issues": 1015,
-            "owner": "future-agi",
-            "repo": "future-agi",
-            "stars": 2106,
-            "topics": [
-              "agent-evaluation",
-              "ai-agents",
-              "ai-evals",
-              "ai-gateway",
-              "ai-observability",
-              "evals",
-              "evaluation-framework",
-              "guardrails",
-              "hallucination-detection",
-              "llm-evaluation",
-              "llm-observability",
-              "llm-tracing",
-              "llmops",
-              "model-evaluation",
-              "observability",
-              "opentelemetry",
-              "rag-evaluation",
-              "simulation",
-              "telemetry",
-              "tracing"
-            ]
-          },
-          "first_seen": "2026-08-28T23:09:59.637Z"
-        },
-        {
-          "node_type": "item",
-          "title": "🟡 EVA (ServiceNow)",
-          "description": "Open-source bot-to-bot framework that scores cascaded and speech-to-speech voice agents on accuracy and experience across 213 enterprise scenarios; none of the 12 systems tested clears 0.5 on both; note the commercial author.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "A New End-to-end Framework for Evaluating Voice Agents",
-            "homepage": "https://servicenow.github.io/eva/",
-            "id": 1190112610,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2026-09-29T19:31:18Z",
-            "open_issues": 22,
-            "owner": "ServiceNow",
-            "repo": "eva",
-            "stars": 221,
-            "topics": [
-              "agentic-ai",
-              "asr",
-              "evaluation-framework",
-              "machine-learning",
-              "nlp",
-              "speech-ai",
-              "tts",
-              "voice-agents",
-              "voice-ai"
-            ]
-          },
-          "first_seen": "2026-09-27T17:54:27.606Z"
-        }
-      ],
-      "title": "13 resources"
+      "title": "✅ 14. Evaluation and testing"
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-02T18:37:56.732Z",
+    "last_updated": "2026-10-03T05:14:33.654Z",
     "original_repository_info": {
       "archived": false,
       "description": "Set of 📝 with 🔗 to help those building Voice AI agents 🎙️🤖",
@@ -909,7 +958,7 @@
       "open_issues": 2,
       "owner": "mahimairaja",
       "repo": "voiceai",
-      "stars": 331,
+      "stars": 330,
       "topics": [
         "ai-agents",
         "asr",
