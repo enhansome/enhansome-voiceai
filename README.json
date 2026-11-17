@@ -19,11 +19,11 @@
                     "id": 817354652,
                     "language": "Python",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-11-16T13:53:46Z",
-                    "open_issues": 262,
+                    "last_commit": "2026-11-17T14:50:13Z",
+                    "open_issues": 264,
                     "owner": "TEN-framework",
                     "repo": "ten-framework",
-                    "stars": 11233,
+                    "stars": 11236,
                     "topics": [
                       "ai",
                       "multi-modal",
@@ -50,7 +50,7 @@
                     "open_issues": 62,
                     "owner": "fixie-ai",
                     "repo": "ultravox",
-                    "stars": 4589,
+                    "stars": 4588,
                     "topics": [
                       "ai",
                       "llm",
@@ -76,7 +76,7 @@
                     "open_issues": 13,
                     "owner": "QwenAudio",
                     "repo": "qwen-audio-agent",
-                    "stars": 3239,
+                    "stars": 3247,
                     "topics": [
                       "acp",
                       "agent",
@@ -131,7 +131,7 @@
                     "open_issues": 185,
                     "owner": "openai",
                     "repo": "whisper",
-                    "stars": 112852,
+                    "stars": 113087,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T23:09:59.637Z"
@@ -152,7 +152,7 @@
                     "open_issues": 21,
                     "owner": "SYSTRAN",
                     "repo": "faster-whisper",
-                    "stars": 26802,
+                    "stars": 26834,
                     "topics": [
                       "deep-learning",
                       "inference",
@@ -178,11 +178,11 @@
                     "id": 569959091,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-11-16T18:57:54Z",
-                    "open_issues": 63,
+                    "last_commit": "2026-11-17T05:48:10Z",
+                    "open_issues": 65,
                     "owner": "modelscope",
                     "repo": "FunASR",
-                    "stars": 21049,
+                    "stars": 21061,
                     "topics": [
                       "asr",
                       "audio",
@@ -220,11 +220,11 @@
                     "id": 200722670,
                     "language": "Python",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-16T22:04:34Z",
-                    "open_issues": 464,
+                    "last_commit": "2026-11-17T21:01:22Z",
+                    "open_issues": 458,
                     "owner": "NVIDIA-NeMo",
                     "repo": "Speech",
-                    "stars": 18761,
+                    "stars": 18762,
                     "topics": [
                       "asr",
                       "deeplearning",
@@ -256,7 +256,7 @@
                     "open_issues": 29,
                     "owner": "moonshine-ai",
                     "repo": "moonshine",
-                    "stars": 11528,
+                    "stars": 11533,
                     "topics": [
                       "intent-recognition",
                       "stt",
@@ -283,7 +283,7 @@
                     "open_issues": 14,
                     "owner": "QwenAudio",
                     "repo": "SenseVoice",
-                    "stars": 9767,
+                    "stars": 9774,
                     "topics": [
                       "asr",
                       "audio-analysis",
@@ -325,7 +325,7 @@
                     "open_issues": 27,
                     "owner": "QwenLM",
                     "repo": "Qwen3-ASR",
-                    "stars": 3905,
+                    "stars": 3917,
                     "topics": []
                   },
                   "first_seen": "2026-09-27T17:54:27.606Z"
@@ -349,11 +349,11 @@
                     "id": 1139482183,
                     "language": "Python",
                     "license": "BSD-2-Clause",
-                    "last_commit": "2026-11-06T12:10:34Z",
-                    "open_issues": 5,
+                    "last_commit": "2026-11-17T13:27:39Z",
+                    "open_issues": 6,
                     "owner": "pipecat-ai",
                     "repo": "stt-benchmark",
-                    "stars": 141,
+                    "stars": 142,
                     "topics": []
                   },
                   "first_seen": "2026-09-27T17:54:27.606Z"
@@ -394,7 +394,7 @@
                     "open_issues": 384,
                     "owner": "resemble-ai",
                     "repo": "chatterbox",
-                    "stars": 27871,
+                    "stars": 27893,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T23:09:59.637Z"
@@ -412,10 +412,10 @@
                     "language": "Python",
                     "license": "Apache-2.0",
                     "last_commit": "2026-03-17T06:38:41Z",
-                    "open_issues": 58,
+                    "open_issues": 59,
                     "owner": "QwenLM",
                     "repo": "Qwen3-TTS",
-                    "stars": 14455,
+                    "stars": 14481,
                     "topics": []
                   },
                   "first_seen": "2026-09-27T17:54:27.606Z"
@@ -457,11 +457,11 @@
                     "id": 956792596,
                     "language": "C++",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-11-15T18:17:42Z",
+                    "last_commit": "2026-11-17T19:57:03Z",
                     "open_issues": 156,
                     "owner": "OHF-Voice",
                     "repo": "piper1-gpl",
-                    "stars": 6315,
+                    "stars": 6318,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T23:09:59.637Z"
@@ -482,7 +482,7 @@
                     "open_issues": 84,
                     "owner": "thewh1teagle",
                     "repo": "kokoro-onnx",
-                    "stars": 2895,
+                    "stars": 2898,
                     "topics": [
                       "kokoro",
                       "onnxruntime",
@@ -508,7 +508,7 @@
                     "open_issues": 21,
                     "owner": "idiap",
                     "repo": "coqui-ai-TTS",
-                    "stars": 2357,
+                    "stars": 2356,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T23:09:59.637Z"
@@ -547,7 +547,7 @@
                 "open_issues": 17,
                 "owner": "snakers4",
                 "repo": "silero-vad",
-                "stars": 10676,
+                "stars": 10693,
                 "topics": [
                   "onnx",
                   "onnx-runtime",
@@ -581,7 +581,7 @@
                 "open_issues": 22,
                 "owner": "pipecat-ai",
                 "repo": "smart-turn",
-                "stars": 1670,
+                "stars": 1673,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
@@ -660,7 +660,7 @@
                 "open_issues": 3,
                 "owner": "ceva-ip",
                 "repo": "DPDFNet",
-                "stars": 187,
+                "stars": 188,
                 "topics": [
                   "audio",
                   "audio-denoising",
@@ -711,11 +711,11 @@
                 "id": 736272311,
                 "language": "Python",
                 "license": "BSD-2-Clause",
-                "last_commit": "2026-11-16T21:32:25Z",
-                "open_issues": 488,
+                "last_commit": "2026-11-17T21:24:38Z",
+                "open_issues": 490,
                 "owner": "pipecat-ai",
                 "repo": "pipecat",
-                "stars": 17298,
+                "stars": 17305,
                 "topics": [
                   "ai",
                   "chatbot-framework",
@@ -739,11 +739,11 @@
                 "id": 707441527,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-16T21:55:35Z",
-                "open_issues": 963,
+                "last_commit": "2026-11-17T21:51:12Z",
+                "open_issues": 964,
                 "owner": "livekit",
                 "repo": "agents",
-                "stars": 15249,
+                "stars": 15260,
                 "topics": [
                   "agents",
                   "ai",
@@ -796,7 +796,7 @@
                 "open_issues": 1,
                 "owner": "wildminder",
                 "repo": "awesome-ai-voice",
-                "stars": 552,
+                "stars": 554,
                 "topics": [
                   "ai-music",
                   "ai-voice",
@@ -820,11 +820,11 @@
                 "id": 1028414340,
                 "language": "TypeScript",
                 "license": "BSD-2-Clause",
-                "last_commit": "2026-11-16T18:35:04Z",
+                "last_commit": "2026-11-17T19:23:19Z",
                 "open_issues": 4,
                 "owner": "pipecat-ai",
                 "repo": "pipecat-examples",
-                "stars": 420,
+                "stars": 426,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:09:59.637Z"
@@ -841,8 +841,8 @@
                 "id": 1011491447,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-11-12T23:59:16Z",
-                "open_issues": 28,
+                "last_commit": "2026-11-17T01:00:46Z",
+                "open_issues": 27,
                 "owner": "livekit-examples",
                 "repo": "agent-starter-python",
                 "stars": 274,
@@ -875,11 +875,11 @@
                 "id": 1219087723,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-16T22:53:10Z",
-                "open_issues": 979,
+                "last_commit": "2026-11-17T21:49:00Z",
+                "open_issues": 989,
                 "owner": "future-agi",
                 "repo": "future-agi",
-                "stars": 2281,
+                "stars": 2282,
                 "topics": [
                   "agent-evaluation",
                   "ai-agents",
@@ -917,8 +917,8 @@
                 "id": 1190112610,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-11-16T22:51:20Z",
-                "open_issues": 29,
+                "last_commit": "2026-11-17T20:42:28Z",
+                "open_issues": 30,
                 "owner": "ServiceNow",
                 "repo": "eva",
                 "stars": 241,
@@ -946,7 +946,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-16T22:59:07.737Z",
+    "last_updated": "2026-11-17T21:51:52.877Z",
     "original_repository_info": {
       "archived": false,
       "description": "Set of 📝 with 🔗 to help those building Voice AI agents 🎙️🤖",
@@ -958,7 +958,7 @@
       "open_issues": 8,
       "owner": "mahimairaja",
       "repo": "voiceai",
-      "stars": 341,
+      "stars": 342,
       "topics": [
         "ai-agents",
         "asr",
